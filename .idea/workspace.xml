@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b217cb6-a63f-4c0d-bf95-855030680574" name="Changes" comment="" />
+    <list default="true" id="4b217cb6-a63f-4c0d-bf95-855030680574" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/CheckSurveyScheduleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/GenerateReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/InitialSurveyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Make_BarChart_of_SurveyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Make_Survey_ScheduleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Previously_Surveyed_Institution_ListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Request_For_Initial_SurveyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Send_Emergency_AlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Submit_Survey_ReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/VerdictDetailsInfoSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ViewSurveyReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/assignSurveylistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/initialSurveyListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/meetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/pieChartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/viewSurveyChartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2q3z5cbqadkwCgO8WHZ38UpsYQl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -22,8 +59,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Rab__Mobile__Court",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -45,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733905866245</updated>
       <workItem from="1733905867176" duration="1000" />
+      <workItem from="1733909428187" duration="1329000" />
     </task>
     <servers />
   </component>

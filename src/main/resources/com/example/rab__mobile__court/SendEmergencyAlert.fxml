@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9bb4f2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Send_Emergency_AlertController">
+   <children>
+      <ComboBox fx:id="selectUserComboBox" layoutX="203.0" layoutY="31.0" prefWidth="150.0" promptText="Select User" />
+      <TextField fx:id="emergencyElertId" layoutX="43.0" layoutY="31.0" prefHeight="25.0" prefWidth="141.0" promptText="Emergency Elert ID :" />
+      <TextField fx:id="institutionNameTextField" layoutX="43.0" layoutY="64.0" prefHeight="25.0" prefWidth="141.0" promptText="Institution Name" />
+      <TextField fx:id="institutionLocationTextField" layoutX="204.0" layoutY="64.0" promptText="Institution Location" />
+      <TextArea fx:id="descriptionTextArea" layoutX="43.0" layoutY="125.0" prefHeight="138.0" prefWidth="305.0" />
+      <Label layoutX="46.0" layoutY="99.0" prefHeight="17.0" prefWidth="141.0" text="Short Note" />
+      <Button layoutX="85.0" layoutY="270.0" mnemonicParsing="false" onAction="#sendEmergencyAlertButtonOnClick" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #878ef5;" text="Send Emergency Alert" />
+      <Button layoutX="437.0" layoutY="357.0" mnemonicParsing="false" onAction="#backDashBoardOnAction" prefHeight="25.0" prefWidth="149.0" text="Back to DashBoard" />
+      <Line endX="-119.0" endY="-94.0" layoutX="499.0" layoutY="125.0" startX="-119.0" startY="170.0" />
+      <TextArea fx:id="showEmergencyAlertTextArea" editable="false" layoutX="386.0" layoutY="61.0" prefHeight="265.0" prefWidth="212.0" wrapText="true" />
+      <Button layoutX="414.0" layoutY="31.0" mnemonicParsing="false" onAction="#loadAlertButtonOnClick" prefHeight="25.0" prefWidth="141.0" text="Load Emergency Alerts" />
+   </children>
+</AnchorPane>

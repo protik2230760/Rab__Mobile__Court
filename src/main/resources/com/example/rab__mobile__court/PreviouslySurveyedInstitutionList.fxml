@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9bb4f2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Previously_Surveyed_Institution_ListController">
+   <children>
+      <Label layoutX="50.0" layoutY="14.0" prefHeight="34.0" prefWidth="342.0" style="-fx-background-color: #272eb8;" text="Previously Surveyed Institution List" textFill="#e9e9f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="previouslySurveyedListView" layoutX="50.0" layoutY="61.0" prefHeight="332.0" prefWidth="342.0" style="-fx-border-color: #f0f2f7;" />
+      <Button layoutX="422.0" layoutY="332.0" mnemonicParsing="false" onAction="#backDashBoardOnAction" prefHeight="34.0" prefWidth="155.0" text="BackDashBoard" />
+   </children>
+</AnchorPane>

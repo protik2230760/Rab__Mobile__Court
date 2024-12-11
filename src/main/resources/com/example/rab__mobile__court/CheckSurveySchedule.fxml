@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.CheckSurveyScheduleController">
+   <children>
+      <TableView fx:id="surveyScheduleTableView" layoutX="14.0" layoutY="27.0" prefHeight="306.0" prefWidth="572.0" style="-fx-background-color: #F2F2F2;">
+         <columns>
+            <TableColumn fx:id="surveyIdCol" prefWidth="109.0" text="Survey Id" />
+            <TableColumn fx:id="institutionCol" prefWidth="148.0" text="Institution name" />
+            <TableColumn fx:id="locationCol" prefWidth="115.0" text="Location" />
+            <TableColumn fx:id="surveyDateCol" prefWidth="199.0" text="Date" />
+         </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#makeSurveyDoneOnClick" prefHeight="26.0" prefWidth="148.0" style="-fx-background-color: #3470BF;" text="Make As Done" textFill="#f4f1f1" />
+      <Button layoutX="438.0" layoutY="359.0" mnemonicParsing="false" onAction="#BackDashBoardOnAction" prefHeight="26.0" prefWidth="148.0" style="-fx-background-color: #3470BF;" text="Back to DashBorad" textFill="#f2eeee" />
+   </children>
+</AnchorPane>
