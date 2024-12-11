@@ -14,7 +14,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: violet;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.VerdictDetailsInfoSceneController">
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.VerdictDetailsInfoSceneController">
    <children>
       <Label layoutX="269.0" layoutY="35.0" text="Verdict Details Info">
          <font>
@@ -57,12 +57,12 @@
          </font>
       </Label>
       <ComboBox fx:id="verTypeCB" layoutX="151.0" layoutY="245.0" prefWidth="150.0" />
-      <Button layoutX="74.0" layoutY="321.0" mnemonicParsing="false" onAction="#saveVerDetailsButtonOnClick" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20; -fx-border-width: 2;" text="Save Verdict Details">
+      <Button layoutX="74.0" layoutY="321.0" mnemonicParsing="false" onAction="#saveVerDetailsButtonOnClick" style="-fx-background-radius: 20;" text="Save Verdict Details">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="95.0" layoutY="368.0" mnemonicParsing="false" onAction="#viewInTableButtonOnClick" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20; -fx-border-width: 2;" text="View in Table">
+      <Button layoutX="95.0" layoutY="368.0" mnemonicParsing="false" onAction="#viewInTableButtonOnClick" style="-fx-background-radius: 20;" text="View in Table">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -74,13 +74,13 @@
             <TableColumn fx:id="verTypeTableCol" prefWidth="95.20001220703125" text="Verdict Type" />
          </columns>
       </TableView>
-      <Button layoutX="653.0" layoutY="147.0" mnemonicParsing="false" onAction="#viewInPieChartButtonOnClick" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20; -fx-border-width: 2;" text="View in Pie Chart">
+      <Button layoutX="653.0" layoutY="147.0" mnemonicParsing="false" onAction="#viewInPieChartButtonOnClick" style="-fx-background-radius: 20;" text="View in Pie Chart">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
       <PieChart fx:id="pieChart" layoutX="338.0" layoutY="200.0" prefHeight="367.0" prefWidth="447.0" style="-fx-border-color: black;" title="Pie Chart" />
-      <Button layoutX="673.0" layoutY="582.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20; -fx-border-width: 2;" text="Return Home">
+      <Button layoutX="673.0" layoutY="582.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" style="-fx-background-radius: 20;" text="Return Home">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
