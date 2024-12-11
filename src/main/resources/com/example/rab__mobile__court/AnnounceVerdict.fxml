@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.AnnounceVerdictSceneController">
+    <children>
+        <Label layoutX="218.0" layoutY="30.0" prefHeight="38.0" prefWidth="437.0" text="Announce Verdict &amp; Create Report">
+            <font>
+                <Font name="System Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="53.0" layoutY="139.0" text="Date of Verdict :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="dateOfVerDatePicker" layoutX="180.0" layoutY="137.0" promptText="Click to select" />
+        <Label layoutX="53.0" layoutY="183.0" text="Verdict ID :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="verIdTextField" layoutX="180.0" layoutY="181.0" prefHeight="26.0" prefWidth="175.0" />
+        <Label layoutX="53.0" layoutY="228.0" text="Defendant Name :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="53.0" layoutY="274.0" text="Institution Name :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="defNameTextField" layoutX="180.0" layoutY="225.0" prefHeight="26.0" prefWidth="175.0" />
+        <TextField fx:id="instiNameTextField" layoutX="180.0" layoutY="271.0" prefHeight="26.0" prefWidth="175.0" />
+        <Label layoutX="53.0" layoutY="315.0" text="Institution Type :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="instiTypeCB" layoutX="180.0" layoutY="313.0" prefHeight="26.0" prefWidth="175.0" promptText="Click to expand" />
+        <Label layoutX="437.0" layoutY="139.0" text="Crime Details :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="crimeDetailsTextArea" layoutX="542.0" layoutY="138.0" prefHeight="154.0" prefWidth="250.0" />
+        <Label layoutX="437.0" layoutY="315.0" text="Section of Law:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="secOfLawTextField" layoutX="542.0" layoutY="312.0" prefHeight="26.0" prefWidth="250.0" />
+        <RadioButton fx:id="fineRB" layoutX="139.0" layoutY="388.0" mnemonicParsing="false" text="Fine">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="jailRB" layoutX="228.0" layoutY="388.0" mnemonicParsing="false" text="Jail">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </RadioButton>
+        <Label layoutX="53.0" layoutY="388.0" text="Verdict :">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Button layoutX="53.0" layoutY="432.0" mnemonicParsing="false" onAction="#viewButtonOnClick" prefHeight="30.0" prefWidth="92.0" style="-fx-background-radius: 50px;" text="View">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="viewTextArea" layoutX="55.0" layoutY="473.0" prefHeight="154.0" prefWidth="302.0" />
+        <Button layoutX="538.0" layoutY="432.0" mnemonicParsing="false" onAction="#createPdfButtonOnClick" prefHeight="51.0" prefWidth="145.0" style="-fx-background-radius: 50px;" text="Create PDF">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="684.0" layoutY="597.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" style="-fx-background-radius: 50px;" text="Return Home">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Line endX="30.79998779296875" endY="-62.79998779296875" layoutX="371.0" layoutY="233.0" startX="30.79998779296875" startY="316.4000244140625" strokeWidth="2.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ContactCourtClerkSceneController">
+    <children>
+        <Label layoutX="227.0" layoutY="32.0" text="Contact Court Clerk" textFill="#4e4146">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="36.0" />
+            </font>
+        </Label>
+        <Label layoutX="46.0" layoutY="149.0" text="User ID:" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="46.0" layoutY="187.0" text="Message ID:" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="userIdTextField" layoutX="166.0" layoutY="146.0" />
+        <TextField fx:id="messageIdTextField" layoutX="166.0" layoutY="184.0" />
+        <Label layoutX="46.0" layoutY="227.0" text="Urgency Level:" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <RadioButton fx:id="regularRB" layoutX="165.0" layoutY="227.0" mnemonicParsing="false" text="Regular" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="urgentRB" layoutX="258.0" layoutY="227.0" mnemonicParsing="false" text="Urgent" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </RadioButton>
+        <Label layoutX="358.0" layoutY="126.0" text="Message to Court Clerk:" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="msgToCourtClerkTextArea" layoutX="358.0" layoutY="149.0" prefHeight="286.0" prefWidth="479.0" />
+        <Label layoutX="94.0" layoutY="377.0" text="Signature" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="signatureTextField" layoutX="51.0" layoutY="325.0" />
+        <Button layoutX="54.0" layoutY="506.0" mnemonicParsing="false" onAction="#sendMsgButtonOnClick" prefHeight="51.0" prefWidth="143.0" style="-fx-background-radius: 50px; -fx-border-width: 3;" text="Send Message" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="353.0" layoutY="506.0" mnemonicParsing="false" onAction="#viewMsgButtonOnClick" prefHeight="51.0" prefWidth="143.0" style="-fx-background-radius: 50px; -fx-border-width: 3;" text="View Message" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="659.0" layoutY="506.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" prefHeight="51.0" prefWidth="143.0" style="-fx-background-radius: 50px; -fx-border-width: 3;" text="Return Home" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Line endX="100.0" layoutX="126.0" layoutY="364.0" startX="-100.0" stroke="#69082a" strokeWidth="2.0" />
+        <Line endX="222.5999755859375" layoutX="407.0" layoutY="87.0" startX="-194.1999969482422" strokeWidth="2.0">
+            <stroke>
+                <LinearGradient endX="1.0" endY="0.15530305920225196">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.18060000240802765" green="0.4159184396266937" blue="0.8600000143051147" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </stroke>
+        </Line>
+        <Label layoutX="34.0" layoutY="413.0" text="Date:" textFill="#464646">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="dateDatePicker" layoutX="79.0" layoutY="411.0" prefHeight="26.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>

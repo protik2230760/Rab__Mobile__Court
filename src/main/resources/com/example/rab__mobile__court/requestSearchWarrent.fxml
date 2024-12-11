@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="576.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.RequestSearchWarrentController">
+    <children>
+        <Label layoutX="191.0" layoutY="25.0" text="Request Search Warrent">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="29.0" />
+            </font>
+        </Label>
+        <Label layoutX="37.0" layoutY="119.0" text="Name of The Institution">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="385.0" layoutY="191.0" text="Reason for Search">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="385.0" layoutY="157.0" text="Officer Badge Number">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="386.0" layoutY="123.0" text="Search Warrant ID">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="37.0" layoutY="194.0" text="Proposed Date of Search">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label layoutX="38.0" layoutY="158.0" text="Type of The Institution">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nameOfInstiTextField" layoutX="182.0" layoutY="115.0" prefHeight="26.0" prefWidth="174.0" />
+        <ComboBox fx:id="typeOfInstiComboBox" layoutX="181.0" layoutY="153.0" prefHeight="26.0" prefWidth="174.0" />
+        <DatePicker fx:id="propDateOfSerDatePicker" layoutX="181.0" layoutY="190.0" prefHeight="26.0" prefWidth="174.0" />
+        <TextField fx:id="serWarIdTextField" layoutX="530.0" layoutY="118.0" prefHeight="26.0" prefWidth="174.0" />
+        <TextField fx:id="badgeNumTextField" layoutX="529.0" layoutY="153.0" prefHeight="26.0" prefWidth="174.0" />
+        <Button layoutX="30.0" layoutY="234.0" mnemonicParsing="false" onAction="#showSavedInfoButtonOnClick" prefHeight="27.0" prefWidth="150.0" style="-fx-background-radius: 50px;" text="Show Warrent Info">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="266.0" layoutY="483.0" mnemonicParsing="false" onAction="#saveWarInfoButtonOnClick" style="-fx-background-radius: 50px;" text="Save Warrent Info">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="543.0" layoutY="497.0" mnemonicParsing="false" onAction="#returnButtonOnClick" prefHeight="41.0" prefWidth="102.0" style="-fx-background-radius: 50px;" text="Return">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+            </font>
+        </Button>
+        <TextArea layoutX="22.0" layoutY="300.0" prefHeight="163.0" prefWidth="664.0" />
+        <TextField fx:id="reasForSerTextField" layoutX="529.0" layoutY="186.0" prefHeight="26.0" prefWidth="174.0" />
+    </children>
+</AnchorPane>

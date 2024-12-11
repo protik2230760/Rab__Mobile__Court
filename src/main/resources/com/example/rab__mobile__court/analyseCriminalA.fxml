@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.AnalyzCrimActivSceneController">
+    <children>
+        <Label layoutX="260.0" layoutY="27.0" prefHeight="55.0" prefWidth="329.0" text="Analize Criminal Activity">
+            <font>
+                <Font name="System Bold" size="28.0" />
+            </font>
+        </Label>
+        <Button layoutX="70.0" layoutY="257.0" mnemonicParsing="false" onAction="#saveActInfoButtonOnClick" text="Save Activity Information">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="703.0" layoutY="587.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" text="Return Home">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="occAmountTextField" layoutX="174.0" layoutY="167.0" prefHeight="26.0" prefWidth="125.0" />
+        <Label layoutX="28.0" layoutY="167.0" text="Occurrence Amount:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="occYearTextField" layoutX="175.0" layoutY="210.0" prefHeight="26.0" prefWidth="126.0" />
+        <Label layoutX="29.0" layoutY="210.0" text="Occurrence Year:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="29.0" layoutY="115.0" text="Crime Type:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="crimeTypeCB" layoutX="173.0" layoutY="117.0" prefHeight="26.0" prefWidth="126.0" />
+        <BarChart fx:id="anaCriActBarChart" layoutX="328.0" layoutY="87.0" prefHeight="345.0" prefWidth="500.0" title="Criminal Activity">
+            <xAxis>
+                <CategoryAxis label="Crime Type" prefHeight="17.0" prefWidth="444.0" side="BOTTOM" fx:id="xAxis" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" label="Occurrence Amount" side="LEFT" />
+            </yAxis>
+        </BarChart>
+        <TextArea fx:id="viewSavedInfoTextArea" layoutX="42.0" layoutY="401.0" prefHeight="119.0" prefWidth="246.0" />
+        <Button layoutX="114.0" layoutY="354.0" mnemonicParsing="false" onAction="#viewSavedInfoButtonOnClick" text="View Saved Info">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Line endX="45.5999755859375" endY="313.4000244140625" layoutX="282.0" layoutY="309.0" startX="45.5999755859375" startY="-226.8000030517578" strokeWidth="2.0" />
+        <Button layoutX="375.0" layoutY="433.0" mnemonicParsing="false" onAction="#loadBarChartButtonOnClick" text="Load Bar Chart">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="375.0" layoutY="520.0" mnemonicParsing="false" onAction="#viewMaxMinActButtonOnClick" prefHeight="55.0" prefWidth="126.0" text="View Max &amp; Min Activity" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="inYrOfCriTextField" layoutX="375.0" layoutY="480.0" promptText="Input Year of Crime" />
+        <Label fx:id="outputLabel" layoutX="548.0" layoutY="481.0" prefHeight="78.0" prefWidth="254.0" style="-fx-border-color: black;" />
+    </children>
+</AnchorPane>

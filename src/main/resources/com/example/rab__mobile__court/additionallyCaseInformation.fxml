@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.AdditionalCaseInfoSceneController">
+   <children>
+      <Label layoutX="198.0" layoutY="51.0" text="Additional Case Information">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="438.0" layoutY="202.0" text="Additional Case Information ID:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="73.0" layoutY="141.0" mnemonicParsing="false" onAction="#viewAdditionalInfoButtonOnClick" prefHeight="43.0" prefWidth="318.0" style="-fx-background-radius: 20;" text="View Additional Case Information Request">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="viewCaseInfoReqTextArea" layoutX="73.0" layoutY="198.0" prefHeight="226.0" prefWidth="318.0" />
+      <TextField fx:id="addiCaseInfoIdTField" layoutX="654.0" layoutY="198.0" />
+      <Label layoutX="438.0" layoutY="246.0" text="Case ID:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="caseIdTextField" layoutX="654.0" layoutY="243.0" />
+      <Line endX="6.0" endY="177.5999755859375" layoutX="410.0" layoutY="256.0" startX="6.0" startY="-66.39999389648438" strokeWidth="2.0" />
+      <Label layoutX="438.0" layoutY="290.0" text="Defendant ID:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="defenIdTextField" layoutX="654.0" layoutY="287.0" />
+      <Label layoutX="438.0" layoutY="341.0" text="Defendant Criminal History:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="yesRadioB" layoutX="654.0" layoutY="343.0" mnemonicParsing="false" text="Yes" />
+      <RadioButton fx:id="noRadioB" layoutX="729.0" layoutY="343.0" mnemonicParsing="false" text="No" />
+      <TextArea fx:id="pastHistTextArea" layoutX="438.0" layoutY="368.0" prefHeight="54.0" prefWidth="368.0" promptText="Insert the past criminal history of the defendant" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="73.0" layoutY="474.0" mnemonicParsing="false" onAction="#viewDraftButtonOnClick" prefHeight="43.0" prefWidth="114.0" style="-fx-background-radius: 20;" text="View Draft">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="viewDraftTextArea" layoutX="200.0" layoutY="454.0" prefHeight="83.0" prefWidth="611.0" />
+      <Button layoutX="73.0" layoutY="558.0" mnemonicParsing="false" onAction="#saveInfoButtonOnClick" prefHeight="43.0" prefWidth="150.0" style="-fx-background-radius: 20;" text="Save Info">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="655.0" layoutY="558.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" prefHeight="43.0" prefWidth="150.0" style="-fx-background-radius: 20;" text="Return Home">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Line endX="282.39996337890625" endY="-40.399993896484375" layoutX="432.0" layoutY="146.0" startX="-283.20001220703125" startY="-40.399993896484375" strokeWidth="3.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.009999999776482582" green="1.0" blue="0.34041890501976013" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+   </children>
+</AnchorPane>

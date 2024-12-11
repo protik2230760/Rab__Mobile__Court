@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.MagisIssueSerWarSceneController">
+    <children>
+        <TableView fx:id="warReqTable" layoutX="17.0" layoutY="143.0" prefHeight="200.0" prefWidth="815.0">
+            <columns>
+                <TableColumn fx:id="warIdCol" prefWidth="130.39999771118164" text="Search Warrent ID" />
+                <TableColumn fx:id="nameInstCol" minWidth="8.0" prefWidth="153.59999084472656" text="Name of The Institution" />
+                <TableColumn fx:id="typeInstCol" minWidth="3.20001220703125" prefWidth="124.79998779296875" text="Type of Institution" />
+                <TableColumn fx:id="badgeNumCol" prefWidth="138.4000244140625" text="Officer Badge Number" />
+                <TableColumn fx:id="propDateOfSerCol" prefWidth="133.5999755859375" text="Proposed Search Date" />
+                <TableColumn fx:id="serReasCol" prefWidth="134.4000244140625" text="Search Reason" />
+            </columns>
+        </TableView>
+        <Label layoutX="273.0" layoutY="25.0" text="ISSUE SEARCH WARRANT" textFill="#0f130d">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font>
+        </Label>
+        <Button layoutX="38.0" layoutY="92.0" mnemonicParsing="false" onAction="#loadWarReqButtonOnClick" style="-fx-background-radius: 50px;" text="Load Warrant Request">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="38.0" layoutY="374.0" text="Warrant ID :" textFill="#0f130d">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="warIdTextField" layoutX="172.0" layoutY="370.0" />
+        <Label layoutX="38.0" layoutY="408.0" text="Institution Name :" textFill="#0f130d">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="instiNameTextField" layoutX="172.0" layoutY="404.0" />
+        <Label layoutX="380.0" layoutY="374.0" text=" ID of the RAB Officer in charge :" textFill="#0f130d">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="rabOffiIdTextField" layoutX="654.0" layoutY="370.0" />
+        <Label layoutX="380.0" layoutY="403.0" prefHeight="26.0" prefWidth="269.0" text="number of subordinates to help the officer :" textFill="#0f130d" wrapText="true">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="numOfSubTextField" layoutX="654.0" layoutY="404.0" />
+        <Line endX="-100.0" endY="81.79998779296875" layoutX="457.0" layoutY="362.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0" />
+        <Line endX="115.59999084472656" layoutX="138.0" layoutY="554.0" startX="-100.0" stroke="WHITE" />
+        <Label layoutX="105.0" layoutY="563.0" text="User's Name" textFill="#0f130d">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="usersNameTextField" layoutX="71.0" layoutY="519.0" />
+        <Label layoutX="60.0" layoutY="593.0" text="Date :" textFill="#0f130d">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="datePicker" layoutX="105.0" layoutY="589.0" promptText="Click to select" />
+        <Button layoutX="358.0" layoutY="493.0" mnemonicParsing="false" onAction="#viewDraftButtonOnClick" style="-fx-background-radius: 50px;" text="View Draft">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="viewDraftTextArea" layoutX="465.0" layoutY="445.0" prefHeight="126.0" prefWidth="339.0" style="-fx-border-color: black;" />
+        <Button layoutX="696.0" layoutY="589.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" style="-fx-background-radius: 50px;" text="Return Home">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="500.0" layoutY="589.0" mnemonicParsing="false" onAction="#issueWarButtonOnClick" style="-fx-background-radius: 50px;" text="Issue Warrant">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
