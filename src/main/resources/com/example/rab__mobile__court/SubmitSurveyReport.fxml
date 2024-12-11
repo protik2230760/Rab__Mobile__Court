@@ -8,17 +8,17 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9bb4f2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Submit_Survey_ReportController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Submit_Survey_ReportController">
    <children>
       <TextField fx:id="surveyIdTextField" layoutX="38.0" layoutY="49.0" promptText="Survey ID :" />
       <TextField fx:id="institutionNameTextField" layoutX="204.0" layoutY="49.0" promptText="Institute Name :" />
       <TextArea fx:id="reportDetailsTextArea" layoutX="36.0" layoutY="101.0" prefHeight="67.0" prefWidth="548.0" />
       <DatePicker fx:id="surveyReportDatePicker" layoutX="383.0" layoutY="49.0" promptText="Survey Report Date" />
-      <Button layoutX="224.0" layoutY="175.0" mnemonicParsing="false" onAction="#saveReportOnAction" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: #878ef5;" text="Save " />
+      <Button layoutX="224.0" layoutY="175.0" mnemonicParsing="false" onAction="#saveReportOnAction" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: #3470BF;" text="Save " />
       <TextArea fx:id="displaySurveyReportTextArea" editable="false" layoutX="36.0" layoutY="227.0" prefHeight="125.0" prefWidth="548.0" promptText="Survey report .........." />
       <Label layoutX="32.0" layoutY="77.0" prefHeight="17.0" prefWidth="114.0" text="Report Details :" />
       <Label layoutX="38.0" layoutY="200.0" text="Survey Report has been saved Successfully!" />
-      <Button layoutX="343.0" layoutY="361.0" mnemonicParsing="false" onAction="#bacKToDashBoardOnAction" prefHeight="25.0" prefWidth="229.0" text="Back To DashBoard" />
+      <Button layoutX="343.0" layoutY="361.0" mnemonicParsing="false" onAction="#bacKToDashBoardOnAction" prefHeight="25.0" prefWidth="229.0" style="-fx-background-color: #3470BF;" text="Back To DashBoard" />
       <ComboBox fx:id="monthComboBox" layoutX="38.0" layoutY="14.0" prefWidth="150.0" promptText="report Month" />
       <ComboBox fx:id="yearComboBox1" layoutX="204.0" layoutY="14.0" prefWidth="150.0" promptText="Report year" />
    </children>

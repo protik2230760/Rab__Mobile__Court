@@ -6,14 +6,14 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9bb4f2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Make_Survey_ScheduleController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Make_Survey_ScheduleController">
    <children>
       <TextField fx:id="surveyIdTextField" layoutX="78.0" layoutY="61.0" promptText="Enter Survey Id" style="-fx-border-color: #65ada5;" />
       <TextField fx:id="InstitutionNameTextField" layoutX="78.0" layoutY="103.0" promptText="Instiitution Name : " style="-fx-border-color: #65ada5;" />
       <TextField fx:id="institutionLocationTextField" layoutX="79.0" layoutY="140.0" promptText="Location : " style="-fx-border-color: #65ada5;" />
       <DatePicker fx:id="surveyDatePicker" layoutX="79.0" layoutY="173.0" prefHeight="25.0" prefWidth="149.0" promptText="Survey Date" style="-fx-border-color: #65ada5;" />
-      <Button layoutX="91.0" layoutY="211.0" mnemonicParsing="false" onAction="#saveSurveyScheduleOnClick" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #878ef5;" text="Save " />
-      <Label fx:id="notificationTextArea" layoutX="238.0" layoutY="60.0" prefHeight="176.0" prefWidth="312.0" style="-fx-border-color: black; -fx-background-color: white;" wrapText="true" />
-      <Button layoutX="459.0" layoutY="361.0" mnemonicParsing="false" onAction="#backToDashBoardOnAction" text="Back to DahBoard" />
+      <Button layoutX="423.0" layoutY="212.0" mnemonicParsing="false" onAction="#saveSurveyScheduleOnClick" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #3470BF;" text="Save " textFill="#f7f3f3" />
+      <Label fx:id="notificationTextArea" layoutX="238.0" layoutY="60.0" prefHeight="140.0" prefWidth="312.0" style="-fx-background-color: white;" wrapText="true" />
+      <Button layoutX="423.0" layoutY="347.0" mnemonicParsing="false" onAction="#backToDashBoardOnAction" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #3470BF;" text="Back to DahBoard" textFill="#fcf7f7" />
    </children>
 </AnchorPane>

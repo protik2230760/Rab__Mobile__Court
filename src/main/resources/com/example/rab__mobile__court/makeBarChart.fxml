@@ -11,30 +11,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="642.0" style="-fx-background-color: #9bb4f2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Make_BarChart_of_SurveyController">
+<AnchorPane id="AnchorPane" prefHeight="635.0" prefWidth="785.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Make_BarChart_of_SurveyController">
    <children>
-      <AnchorPane layoutX="35.0" layoutY="14.0" prefHeight="107.0" prefWidth="157.0" style="-fx-border-color: black;">
-         <children>
-            <ComboBox fx:id="monthComboBox" layoutX="4.0" layoutY="41.0" prefWidth="150.0" promptText="Month" />
-            <ComboBox fx:id="yearComboBox" layoutX="4.0" layoutY="67.0" prefWidth="150.0" promptText="Year" />
-            <Label layoutX="4.0" prefHeight="41.0" prefWidth="150.0" text="Select Survey Month and Year" wrapText="true" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="200.0" layoutY="14.0" prefHeight="107.0" prefWidth="163.0" style="-fx-border-color: black;">
-         <children>
-            <Button layoutX="4.0" layoutY="54.0" mnemonicParsing="false" onAction="#addChartDataOnClick" text="Add Data" />
-            <TextField fx:id="CetegoryTextField" layoutX="4.0" layoutY="2.0" prefHeight="25.0" prefWidth="157.0" promptText="Enter Cetegory" />
-            <TextField fx:id="valueTextField" layoutX="4.0" layoutY="29.0" prefHeight="25.0" prefWidth="157.0" promptText="Enter Value" />
-            <Button layoutX="82.0" layoutY="54.0" mnemonicParsing="false" onAction="#showChartOnClick" text="Show Chart" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="374.0" layoutY="14.0" prefHeight="107.0" prefWidth="246.0" style="-fx-border-color: Black;">
-         <children>
-            <Label layoutX="13.0" layoutY="5.0" prefHeight="19.0" prefWidth="220.0" style="-fx-border-color: black;" text="                     Current Data" textAlignment="RIGHT" />
-            <TextArea fx:id="showCurrentDataTextArea" layoutX="14.0" layoutY="24.0" prefHeight="70.0" prefWidth="230.0" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="33.0" layoutY="126.0" prefHeight="308.0" prefWidth="589.0" style="-fx-border-color: black;">
+      <AnchorPane layoutX="25.0" layoutY="268.0" prefHeight="284.0" prefWidth="574.0" style="-fx-background-color: #F2F2F2;">
          <children>
             <BarChart fx:id="barChart" layoutY="33.0" prefHeight="267.0" prefWidth="286.0" style="-fx-border-color: black;">
                <xAxis>
@@ -44,11 +23,22 @@
                   <NumberAxis side="LEFT" />
                </yAxis>
             </BarChart>
-            <PieChart fx:id="surveyPieChart" layoutX="290.0" layoutY="32.0" prefHeight="267.0" prefWidth="286.0" style="-fx-border-color: black;" />
-            <Label layoutX="50.0" layoutY="14.0" prefHeight="17.0" prefWidth="172.0" text="           Bar Chart" />
-            <Label layoutX="366.0" layoutY="14.0" prefHeight="17.0" prefWidth="99.0" text="Pie Chart" />
+            <PieChart fx:id="surveyPieChart" layoutX="286.0" layoutY="33.0" prefHeight="267.0" prefWidth="310.0" style="-fx-border-color: black;" />
+            <Label layoutX="102.0" layoutY="13.0" prefHeight="18.0" prefWidth="110.0" text="           Bar Chart" />
+            <Label layoutX="423.0" layoutY="13.0" prefHeight="18.0" prefWidth="66.0" text="Pie Chart" />
          </children>
       </AnchorPane>
-      <Button layoutX="407.0" layoutY="443.0" mnemonicParsing="false" onAction="#backToDashBoardOnClick" prefHeight="25.0" prefWidth="198.0" text="Back to Dashboard" />
+      <Button layoutX="562.0" layoutY="579.0" mnemonicParsing="false" onAction="#backToDashBoardOnClick" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: #3470BF;" text="Back to Dashboard" textFill="#f7f5f5" />
+      <Label layoutX="25.0" layoutY="24.0" prefHeight="42.0" prefWidth="172.0" text="Select Survey Month and Year:" wrapText="true" />
+      <ComboBox fx:id="monthComboBox" layoutX="202.0" layoutY="32.0" prefWidth="150.0" />
+      <ComboBox fx:id="yearComboBox" layoutX="202.0" layoutY="65.0" prefWidth="150.0" />
+      <Label layoutX="25.0" layoutY="121.0" prefHeight="19.0" prefWidth="158.0" text="Current Data:" textAlignment="RIGHT" />
+      <TextArea fx:id="showCurrentDataTextArea" layoutX="202.0" layoutY="121.0" prefHeight="70.0" prefWidth="230.0" />
+      <TextField fx:id="CetegoryTextField" layoutX="601.0" layoutY="32.0" prefHeight="25.0" prefWidth="157.0" />
+      <TextField fx:id="valueTextField" layoutX="601.0" layoutY="78.0" prefHeight="25.0" prefWidth="157.0" />
+      <Button layoutX="693.0" layoutY="217.0" mnemonicParsing="false" onAction="#addChartDataOnClick" style="-fx-background-color: #3470BF;" text="Add Data" textFill="#fcfbfb" />
+      <Button layoutX="25.0" layoutY="579.0" mnemonicParsing="false" onAction="#showChartOnClick" style="-fx-background-color: #3470BF;" text="Show Chart" textFill="#efecec" />
+      <Label layoutX="490.0" layoutY="36.0" prefHeight="18.0" prefWidth="90.0" text="Enter Cetegory:" />
+      <Label layoutX="490.0" layoutY="81.0" prefHeight="18.0" prefWidth="90.0" text="Enter Value:" />
    </children>
 </AnchorPane>
