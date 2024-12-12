@@ -2,7 +2,6 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -15,7 +14,7 @@
         <children>
             <ImageView fitHeight="93.0" fitWidth="109.0" layoutX="78.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/fotor-20241211163923.png" />
+                    <Image url="@../../../image/fotor-20241211163923.png" />
                 </image>
             </ImageView>
             <Label layoutX="78.0" layoutY="116.0" prefHeight="18.0" prefWidth="98.0" text="   JANNAT ORPA" textFill="#1d11ff">
@@ -32,62 +31,54 @@
             <Button layoutY="505.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#signOutOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Sign Out" />
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/search_11865771.png" />
+                    <Image url="@../../../image/images/audit_12062268.png" />
                 </image>
             </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/shield_6822358.png" />
+                    <Image url="@../../../image/images/search_11865771.png" />
                 </image>
             </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/notice_6606487.png" />
+                    <Image url="@../../../image/images/shield_6822358.png" />
                 </image>
             </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/audit_12062268.png" />
+                    <Image url="@../../../image/images/contract_446657.png" />
                 </image>
             </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/sos_11796956.png" />
+                    <Image url="@../../../image/images/notice_6606487.png" />
                 </image>
             </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/project-manager_11445634.png" />
+                    <Image url="@../../../image/images/sos_11796956.png" />
                 </image>
             </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/contract_446657.png" />
+                    <Image url="@../../../image/images/icons8_Meanpath_64px_2.png" />
                 </image>
             </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="515.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/icons8_Sign_Out_32px.png" />
+                    <Image url="@../../../image/images/icons8_Sign_Out_32px.png" />
                 </image>
             </ImageView>
             <Button layoutX="1.0" layoutY="168.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#assignSurveyMissionOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Assign Survey Mission" />
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../image/images/icons8_Home_32px.png" />
+                    <Image url="@../../../image/images/project-manager_11445634.png" />
                 </image>
             </ImageView>
         </children>
     </AnchorPane>
 </left>
 <center>
-    <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-        <children>
-            <TextField alignment="CENTER" layoutX="460.0" layoutY="14.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="212.0" promptText="Search" style="-fx-background-radius: 50px;" />
-            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="472.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
-                <image>
-                    <Image url="@../../../../image/images/icons8_Search_52px.png" />
-                </image>
-            </ImageView>
-        </children></AnchorPane>
+    <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
 </center>
 </BorderPane>

@@ -26,15 +26,15 @@
                         <Font name="Berlin Sans FB Demi Bold" size="16.0" />
                     </font>
                 </Label>
-                <ImageView fitHeight="350.0" fitWidth="368.0" layoutX="14.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="350.0" fitWidth="368.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../image/DALL_E_2024-12-09_20.30.09_-_A_modern_and_bold_logo_design_for_a_RAB_Mobile_Court._The_logo_features_a_circular_emblem_with_a_dynamic_combination_of_a_gavel_and_the_scales_of_just-removebg-preview.png" />
+                        <Image url="@../../../image/DALL_E_2024-12-09_20.30.09_-_A_modern_and_bold_logo_design_for_a_RAB_Mobile_Court._The_logo_features_a_circular_emblem_with_a_dynamic_combination_of_a_gavel_and_the_scales_of_just-removebg-preview.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="117.0" fitWidth="150.0" layoutX="547.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../../../../image/Rapid_Action_Battalion_(RAB)_Emblem.svg.png" />
-                    </image>
+               <image>
+                  <Image url="@../../../image/Rapid_Action_Battalion_(RAB)_Emblem.svg.png" />
+               </image>
                 </ImageView>
                 <Label layoutX="512.0" layoutY="170.0" text="RAB MOBILE COURT" textFill="#172452">
                     <font>
@@ -51,7 +51,7 @@
                 </TextField>
                 <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="709.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../image/accounts_3288621.png" />
+                        <Image url="@../../../image/accounts_3288621.png" />
                     </image>
                 </ImageView>
                 <TextField fx:id="enterUserpasswordTextField" alignment="CENTER" layoutX="478.0" layoutY="303.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="260.0" style="-fx-background-color: transparant; -fx-border-color: #E1E1E1; -fx-border-radius: 50px;">
@@ -64,7 +64,7 @@
                 </TextField>
                 <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="709.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../image/unlock_12202131.png" />
+                        <Image url="@../../../image/unlock_12202131.png" />
                     </image>
                 </ImageView>
                 <PasswordField fx:id="enterUserpasswordField" alignment="CENTER" layoutX="499.0" layoutY="300.0" prefHeight="32.0" prefWidth="218.0" promptText="Enter Your Password" style="-fx-background-color: transparant;">
@@ -88,6 +88,7 @@
                     </font>
                 </Label>
                 <ComboBox fx:id="userTypeComboBox" layoutX="484.0" layoutY="210.0" prefHeight="35.0" prefWidth="247.0" style="-fx-border-color: transparant; -fx-border-radius: 50px;" />
+            <Label fx:id="notificationlabel" layoutX="498.0" layoutY="401.0" prefHeight="17.0" prefWidth="233.0" />
             </children>
         </Pane>
     </children>

@@ -24,7 +24,7 @@
                 <Font size="14.0" />
             </font>
         </Label>
-        <ComboBox fx:id="eviTypeCB" layoutX="151.0" layoutY="190.0" prefHeight="26.0" prefWidth="204.0" promptText="Click to expand" />
+        <ComboBox fx:id="eviTypeCB" layoutX="161.0" layoutY="190.0" prefHeight="26.0" prefWidth="194.0" promptText="Click to expand" />
         <TextField fx:id="eviNameTextField" layoutX="151.0" layoutY="139.0" prefHeight="26.0" prefWidth="204.0" />
         <DatePicker fx:id="dateOfAcqDP" layoutX="177.0" layoutY="248.0" prefHeight="26.0" prefWidth="178.0" promptText="Click to select" />
         <Label layoutX="39.0" layoutY="247.0" prefHeight="20.0" prefWidth="140.0" text=" Date of Acquisition :">
