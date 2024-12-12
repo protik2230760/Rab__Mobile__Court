@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="515.0" prefWidth="610.0" style="-fx-background-color: #d7ccc8;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPkg.DistrictOfficerdashBoardFXMLController">
+   <children>
+      <Button layoutX="155.0" layoutY="218.0" mnemonicParsing="false" onAction="#assignNewOperationButtonOnClick" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-color: black; -fx-border-radius: 10; -fx-border-width: 3;" text="Assign New Operation">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="118.0" layoutY="21.0" prefHeight="50.0" prefWidth="374.0" style="-fx-border-width: 4;" text="District Officer" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Algerian" size="45.0" />
+         </font>
+      </Label>
+      <Button layoutX="155.0" layoutY="179.0" mnemonicParsing="false" onAction="#budgetAllocationButtonOnClick" prefHeight="3.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-radius: 10; -fx-border-color: black; -fx-border-width: 3;" text="Budget Allocation">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="99.0" mnemonicParsing="false" onAction="#commandOperationsAdministratorButtonOnClick" prefHeight="7.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-color: black; -fx-border-radius: 10; -fx-border-width: 3;" text="Command Operations Administrator" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="138.0" mnemonicParsing="false" onAction="#caseDetailsButtonOnClick" prefHeight="14.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-color: black; -fx-border-radius: 10; -fx-border-width: 3;" text="Case Details">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="261.0" mnemonicParsing="false" onAction="#assignLawyerButtonOnClick" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-color: black; -fx-border-radius: 10; -fx-border-width: 3;" text="Assign Lawyer">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="300.0" mnemonicParsing="false" onAction="#availableLawyerButtonOnClick" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-color: black; -fx-border-radius: 10; -fx-border-width: 3;" text="Available Lawyer">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="340.0" mnemonicParsing="false" onAction="#viewCrimeRatesButtonOnClick" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-color: black; -fx-border-radius: 10; -fx-border-width: 3;" text="View Crime Rates">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="379.0" mnemonicParsing="false" onAction="#createReportButtonOnClick" prefHeight="0.0" prefWidth="300.0" style="-fx-background-color: #8d6e63; -fx-background-radius: 12; -fx-border-radius: 10; -fx-border-width: 3; -fx-border-color: black;" text="Create Report">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="180.0" fitWidth="231.0" layoutX="98.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/DistrictOfficer.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="261.0" layoutY="448.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" prefHeight="0.0" prefWidth="88.0" style="-fx-background-color: #b0bec5; -fx-border-color: black; -fx-border-width: 2;" text="Log out">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

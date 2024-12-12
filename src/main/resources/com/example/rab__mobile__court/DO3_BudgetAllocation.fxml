@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #d7ccc8;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPkg.U1_BudgetAllocationFXMLController">
+   <children>
+      <Button layoutX="14.0" layoutY="530.0" mnemonicParsing="false" onAction="#allocateBudgetOnClick" prefHeight="30.0" prefWidth="144.0" style="-fx-background-color: #8d6e63;" text="Allocate Budget">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="171.0" layoutY="530.0" mnemonicParsing="false" onAction="#saveToFileOnClick" prefHeight="30.0" prefWidth="155.0" style="-fx-background-color: #8d6e63;" text="Budget Save To File">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="578.0" layoutY="530.0" mnemonicParsing="false" onAction="#returnHomeOnClick" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Return Home">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <TableView fx:id="budgetAllocationTableView" layoutX="9.0" layoutY="231.0" prefHeight="281.0" prefWidth="323.0">
+        <columns>
+          <TableColumn fx:id="operationTableCol" prefWidth="117.0" text="Operation Type" />
+          <TableColumn fx:id="placeTableCol" prefWidth="122.0" text="Operation Place" />
+            <TableColumn fx:id="budgetTableCol" prefWidth="86.0" text="Budget" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="operationTypeComboBox" layoutX="100.0" layoutY="100.0" prefHeight="31.0" prefWidth="155.0" />
+      <ComboBox fx:id="placeComboBox" layoutX="102.0" layoutY="144.0" prefHeight="31.0" prefWidth="155.0" />
+      <Label layoutX="22.0" layoutY="106.0" prefHeight="20.0" prefWidth="69.0" text="Operation">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="150.0" text="Place">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="budgetTextField" layoutX="99.0" layoutY="190.0" prefHeight="31.0" prefWidth="155.0" />
+      <Label layoutX="44.0" layoutY="195.0" text="Budget">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="196.0" text="Tk">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="354.0" layoutY="530.0" mnemonicParsing="false" onAction="#pieChartButtonOnClick" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #8d6e63;" text="Generate Pie Chart">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <PieChart fx:id="budgetPieChart" layoutX="349.0" layoutY="84.0" prefHeight="433.0" prefWidth="438.0" />
+      <Label layoutX="412.0" layoutY="8.0" prefHeight="9.0" prefWidth="311.0" text="Operation Budget PieChart">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="50.0" prefHeight="20.0" prefWidth="122.0" text="Search Operation">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="opesearchrationTypeComboBox1" layoutX="550.0" layoutY="44.0" prefHeight="31.0" prefWidth="155.0" />
+   </children>
+</AnchorPane>
