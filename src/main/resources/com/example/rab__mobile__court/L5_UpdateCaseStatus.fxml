@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #d7ccc8;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.L5_UpdateCaseStatusFXMLController">
+   <children>
+      <TextField fx:id="caseNumberTextField" layoutX="122.0" layoutY="103.0" prefHeight="26.0" prefWidth="236.0" promptText="Case Number" style="-fx-background-color: #ffebee;" />
+      <Label layoutX="24.0" layoutY="99.0" prefHeight="40.0" prefWidth="98.0" text="Case Number :">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="caseStatusTableView" layoutX="24.0" layoutY="212.0" prefHeight="303.0" prefWidth="340.0">
+         <columns>
+            <TableColumn fx:id="caseNumberColumn" prefWidth="143.0" text="Case Number " />
+            <TableColumn fx:id="caseStatusColumn" prefWidth="196.0" text="Case Status" />
+         </columns>
+      </TableView>
+      <Label layoutX="33.0" layoutY="148.0" prefHeight="40.0" prefWidth="87.0" text="Case Status :">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="inProgressRadioButton" layoutX="122.0" layoutY="147.0" mnemonicParsing="false" selected="true" text="In Progress">
+         <toggleGroup>
+            <ToggleGroup fx:id="caseStatusTGrp" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="closedRadioButton" layoutX="250.0" layoutY="147.0" mnemonicParsing="false" selected="true" text=" Closed" toggleGroup="$caseStatusTGrp" />
+      <RadioButton fx:id="pendingRadioButton" layoutX="122.0" layoutY="170.0" mnemonicParsing="false" selected="true" text="Pending" toggleGroup="$caseStatusTGrp" />
+      <RadioButton fx:id="activeRadioButton" layoutX="252.0" layoutY="173.0" mnemonicParsing="false" selected="true" text=" Active" toggleGroup="$caseStatusTGrp" />
+      <Button layoutX="26.0" layoutY="524.0" mnemonicParsing="false" onAction="#loadTableButtonOnClick" prefHeight="30.0" prefWidth="340.0" style="-fx-background-color: #8d6e63;" text="Load Table &amp; Save File">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Line endX="10.0" endY="528.0" layoutX="410.0" layoutY="45.0" startX="10.0" startY="46.0" />
+      <Label layoutX="514.0" layoutY="83.0" prefHeight="40.0" prefWidth="210.0" text="Search Case Status for counting " underline="true">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="caseStatusComboBox" layoutX="557.0" layoutY="152.0" prefWidth="150.0" />
+      <Label layoutX="460.0" layoutY="144.0" prefHeight="40.0" prefWidth="98.0" text="Search Case Status :" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="193.0" prefHeight="40.0" prefWidth="57.0" text="Count :">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="caseStatusCountTextField" layoutX="558.0" layoutY="200.0" promptText="Count the case status" style="-fx-background-color: #ffebee;" />
+      <TextArea fx:id="outPutTextArea" layoutX="460.0" layoutY="232.0" prefHeight="181.0" prefWidth="297.0" />
+      <Button layoutX="460.0" layoutY="432.0" mnemonicParsing="false" onAction="#saveToFileButtonOnClickj" prefHeight="30.0" prefWidth="297.0" style="-fx-background-color: #8d6e63;" text="Save To File">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="460.0" layoutY="485.0" mnemonicParsing="false" onAction="#generateBarChartButtonOnclick" prefHeight="30.0" prefWidth="297.0" style="-fx-background-color: #8d6e63;" text="Generate Bar Chart">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="558.0" layoutY="539.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClickj" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Return Home">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

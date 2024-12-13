@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="518.0" prefWidth="583.0" style="-fx-background-color: #d7ccc8;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPkg.U1_CommandOp_AminFXMLController">
+<AnchorPane id="AnchorPane" prefHeight="376.0" prefWidth="583.0" style="-fx-background-color: #d7ccc8;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.DO1_CommandOperationsAdministratorFXMLController">
    <children>
-      <Label layoutX="212.0" layoutY="14.0" prefHeight="0.0" prefWidth="160.0" text="Operation's Information" textAlignment="CENTER" wrapText="true">
+      <Label layoutX="159.0" layoutY="14.0" prefHeight="44.0" prefWidth="266.0" text="Operation's Information" textAlignment="CENTER" wrapText="true">
          <font>
-            <Font name="Times New Roman Bold" size="15.0" />
+            <Font name="Algerian" size="21.0" />
          </font></Label>
       <TextField fx:id="institutionNameTextField" layoutX="12.0" layoutY="93.0" prefHeight="0.0" prefWidth="230.0" promptText="Institution's Name" style="-fx-background-color: #ffebee;" />
       <TextField fx:id="locationTextField" layoutX="12.0" layoutY="124.0" prefHeight="0.0" prefWidth="230.0" promptText="Institution's Address" style="-fx-background-color: #ffebee;" />
@@ -29,10 +29,5 @@
             <Font name="System Bold" size="14.0" />
          </font></Button>
       <TextField fx:id="institutionNameTextField1" layoutX="12.0" layoutY="61.0" prefHeight="0.0" prefWidth="230.0" promptText="Operation's Title" style="-fx-background-color: #ffebee;" />
-      <Button layoutX="434.0" layoutY="468.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" prefHeight="0.0" prefWidth="135.0" style="-fx-background-color: #b0bec5; -fx-border-color: black; -fx-border-width: 2;" text="Return Home">
-         <font>
-            <Font name="Times New Roman Bold" size="18.0" />
-         </font>
-      </Button>
    </children>
 </AnchorPane>
