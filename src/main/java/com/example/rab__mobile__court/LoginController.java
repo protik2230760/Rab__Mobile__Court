@@ -22,7 +22,7 @@ public class LoginController
     private TextField enterUserpasswordTextField;
 
     @javafx.fxml.FXML
-    public void initialize() {userTypeComboBox.getItems().addAll("Rab Officer", "Operations Administrator", "Lawyer", "Magistrate","Undercover Investigator") ;
+    public void initialize() {userTypeComboBox.getItems().addAll("District Officer","Rab Officer", "Operations Administrator", "Lawyer", "Magistrate","Undercover Investigator") ;
     }
 
     @javafx.fxml.FXML
@@ -55,6 +55,9 @@ public class LoginController
         }
         if (userId.equals("2222526") && password.equals("1234") && "Undercover Investigator".equals(userType)) {
             SceneSwitcher.switchScene("Orpa2DashBoard.fxml", actionEvent, "DashBoard");
+        }
+        if (userId.equals("2111288") && password.equals("1234") && "Undercover Investigator".equals(userType)) {
+            SceneSwitcher.switchScene("", actionEvent, "DashBoard");
         }
     }
 }

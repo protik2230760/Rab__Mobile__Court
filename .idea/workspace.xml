@@ -5,42 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b217cb6-a63f-4c0d-bf95-855030680574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Approve_Survey_RequestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/EmergencyAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Initial_Survey_ReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SubordinateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SurveyAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SurveyReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SurveyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SurveySchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/InitialSurveyReport.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/approve_Survey_request.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmergencyAlerts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EmergencyAlerts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/CheckSurveyScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/CheckSurveyScheduleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/EmergencySupportSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/EmergencySupportSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/InitialSurveyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/InitialSurveyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Make_Survey_ScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Make_Survey_ScheduleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ManageSubordinateSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ManageSubordinateSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Orpa1DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Orpa1DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Orpa2DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Orpa2DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Request_For_Initial_SurveyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Request_For_Initial_SurveyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Send_Emergency_AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Send_Emergency_AlertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/CheckSurveySchedule.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/CheckSurveySchedule.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/CreateNewAccount.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Item.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Orpa1Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Orpa1Dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Orpa2DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Orpa2DashBoard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Overview.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/assignSurveylist.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/defendentInfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/defendentInfo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/emergencySupport.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/emergencySupport.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/initialSurvey.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/initialSurvey.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/makeSurveySchdule.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/makeSurveySchdule.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/manageEvidance.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/manageEvidance.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/requestSurvey.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/requestSurvey.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/subordinateManagment.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/subordinateManagment.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Rab__Mobile__Court",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Rab__Mobile__Court&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
