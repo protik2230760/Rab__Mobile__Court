@@ -10,7 +10,7 @@
 
 <BorderPane fx:id="dashboardBP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Orpa2DashboardController">
    <left>
-      <AnchorPane prefHeight="576.0" prefWidth="247.0" style="-fx-background-color: #05071F;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="576.0" prefWidth="250.0" style="-fx-background-color: #05071F;" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="93.0" fitWidth="109.0" layoutX="78.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -25,10 +25,9 @@
             <Button layoutY="211.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#checkScheduleOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Check Schedule" />
             <Button layoutY="253.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#requestForInitialSurveyOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Request For Initial Survey" />
             <Button layoutY="295.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#InitialSurveyReportingOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Initail Survey Reporting" />
-            <Button layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#previousSurveyListOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="View Previous Survey List" />
-            <Button layoutY="379.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#submitSurveyReportOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Submit Survey Report" />
+            <Button layoutY="379.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#submitSurveyReportOnAction" prefHeight="44.0" prefWidth="262.0" stylesheets="@style.css" text="Submit Survey Report" />
             <Button layoutY="421.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#makeSurveyChartOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Make Survey Chart" />
-            <Button layoutY="463.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#emergencyAlertOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Emergency Alert" />
+            <Button layoutX="1.0" layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#emergencyAlertOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Emergency Alert" />
             <Button layoutY="505.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#signOutOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Sign Out" />
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -45,11 +44,6 @@
                   <Image url="@../../../image/images/audit_12062268.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../image/images/contract_446657.png" />
-               </image>
-            </ImageView>
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/images/shield_6822358.png" />
@@ -60,7 +54,7 @@
                   <Image url="@../../../image/images/icons8_GPS_Antenna_64px_1.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="15.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/images/sos_11796956.png" />
                </image>
@@ -74,6 +68,12 @@
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/images/project-manager_11445634.png" />
+               </image>
+            </ImageView>
+            <Button layoutY="463.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#previousSurveyListOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="View Previous Survey List" />
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/contract_446657.png" />
                </image>
             </ImageView>
          </children>

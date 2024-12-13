@@ -13,49 +13,49 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ManageSubordinateSceneController">
+<AnchorPane id="AnchorPane" prefHeight="623.0" prefWidth="751.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ManageSubordinateSceneController">
     <children>
-        <Label layoutX="51.0" layoutY="209.0" text="Date of Operation:">
+        <Label layoutX="20.0" layoutY="206.0" text="Date of Operation:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <Label layoutX="247.0" layoutY="50.0" text="Manage Subordinate">
+        <Label layoutX="220.0" layoutY="49.0" text="Manage Subordinate">
             <font>
                 <Font name="System Bold" size="36.0" />
             </font>
         </Label>
-        <DatePicker fx:id="dateOfOpDatePicker" layoutX="195.0" layoutY="206.0" prefHeight="26.0" prefWidth="150.0" />
-        <Label layoutX="55.0" layoutY="261.0" text="Location:">
+        <DatePicker fx:id="dateOfOpDatePicker" layoutX="164.0" layoutY="203.0" prefHeight="26.0" prefWidth="150.0" />
+        <Label layoutX="24.0" layoutY="258.0" text="Location:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <TextField fx:id="locationTextField" layoutX="195.0" layoutY="258.0" />
-        <Label layoutX="55.0" layoutY="315.0" text="Institution Name:">
+        <TextField fx:id="locationTextField" layoutX="164.0" layoutY="255.0" />
+        <Label layoutX="24.0" layoutY="312.0" text="Institution Name:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <TextField fx:id="instiNameTextField" layoutX="195.0" layoutY="312.0" />
-        <Label layoutX="55.0" layoutY="373.0" text="Institution Type:">
+        <TextField fx:id="instiNameTextField" layoutX="164.0" layoutY="309.0" />
+        <Label layoutX="24.0" layoutY="370.0" text="Institution Type:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <ComboBox fx:id="instiTypeCB" layoutX="194.0" layoutY="371.0" prefWidth="150.0" />
-        <Label layoutX="56.0" layoutY="435.0" text="Number of Subordinates:">
+        <ComboBox fx:id="instiTypeCB" layoutX="163.0" layoutY="368.0" prefWidth="150.0" />
+        <Label layoutX="25.0" layoutY="432.0" text="Number of Subordinates:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <TextField fx:id="numOfSubTextField" layoutX="234.0" layoutY="432.0" prefHeight="26.0" prefWidth="109.0" />
-        <Button layoutX="454.0" layoutY="173.0" mnemonicParsing="false" onAction="#viewDraftButtonOnClick" style="-fx-background-radius: 20;" text="View Draft">
+        <TextField fx:id="numOfSubTextField" layoutX="203.0" layoutY="429.0" prefHeight="26.0" prefWidth="109.0" />
+        <Button layoutX="398.0" layoutY="176.0" mnemonicParsing="false" onAction="#viewDraftButtonOnClick" style="-fx-background-radius: 20;" text="View Draft">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
-        <TextArea fx:id="viewDraftTextArea" layoutX="454.0" layoutY="225.0" prefHeight="233.0" prefWidth="355.0" />
+        <TextArea fx:id="viewDraftTextArea" editable="false" layoutX="377.0" layoutY="218.0" prefHeight="233.0" prefWidth="355.0" />
         <Line endX="253.0" layoutX="383.0" layoutY="104.0" startX="-174.1999969482422" strokeWidth="3.0">
             <stroke>
                 <LinearGradient endX="1.0" endY="1.0">
@@ -74,16 +74,17 @@
                 </LinearGradient>
             </stroke>
         </Line>
-        <Line endX="-45.20001220703125" endY="121.39999389648438" layoutX="453.0" layoutY="275.0" startX="-45.20001220703125" startY="-45.79998779296875" strokeWidth="2.0" />
-        <Button layoutX="622.0" layoutY="528.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" style="-fx-background-radius: 20;" text="Return Home">
+        <Line endX="-45.20001220703125" endY="121.39999389648438" layoutX="416.0" layoutY="274.0" startX="-45.20001220703125" startY="-45.79998779296875" strokeWidth="2.0" />
+        <Button layoutX="609.0" layoutY="542.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" style="-fx-background-radius: 20;" text="Return Home">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
-        <Button layoutX="126.0" layoutY="528.0" mnemonicParsing="false" onAction="#saveInfoButtonOnClick" style="-fx-background-radius: 20;" text="Save Information">
+        <Button layoutX="385.0" layoutY="466.0" mnemonicParsing="false" onAction="#saveInfoButtonOnClick" style="-fx-background-radius: 20;" text="Save Information">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
+      <Button layoutX="140.0" layoutY="481.0" mnemonicParsing="false" onAction="#addInfoButtonOnClick" style="-fx-background-radius: 50px;" text="Add Info" />
     </children>
 </AnchorPane>

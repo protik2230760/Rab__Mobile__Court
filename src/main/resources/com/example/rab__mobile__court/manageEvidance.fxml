@@ -12,33 +12,33 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ManageEvidenceSceneController">
+<AnchorPane id="AnchorPane" prefHeight="612.0" prefWidth="751.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ManageEvidenceSceneController">
     <children>
-        <Label layoutX="43.0" layoutY="138.0" text="Evidence Name :">
+        <Label layoutX="27.0" layoutY="131.0" text="Evidence Name :">
             <font>
                 <Font size="14.0" />
             </font>
         </Label>
-        <Label layoutX="42.0" layoutY="189.0" text="Evidence Type :">
+        <Label layoutX="26.0" layoutY="189.0" text="Evidence Type :">
             <font>
                 <Font size="14.0" />
             </font>
         </Label>
-        <ComboBox fx:id="eviTypeCB" layoutX="161.0" layoutY="190.0" prefHeight="26.0" prefWidth="194.0" promptText="Click to expand" />
-        <TextField fx:id="eviNameTextField" layoutX="151.0" layoutY="139.0" prefHeight="26.0" prefWidth="204.0" />
-        <DatePicker fx:id="dateOfAcqDP" layoutX="177.0" layoutY="248.0" prefHeight="26.0" prefWidth="178.0" promptText="Click to select" />
-        <Label layoutX="39.0" layoutY="247.0" prefHeight="20.0" prefWidth="140.0" text=" Date of Acquisition :">
+        <ComboBox fx:id="eviTypeCB" layoutX="145.0" layoutY="190.0" prefHeight="26.0" prefWidth="194.0" promptText="Click to expand" />
+        <TextField fx:id="eviNameTextField" layoutX="135.0" layoutY="132.0" prefHeight="26.0" prefWidth="204.0" />
+        <DatePicker fx:id="dateOfAcqDP" layoutX="161.0" layoutY="248.0" prefHeight="26.0" prefWidth="178.0" promptText="Click to select" />
+        <Label layoutX="23.0" layoutY="247.0" prefHeight="20.0" prefWidth="140.0" text=" Date of Acquisition :">
             <font>
                 <Font size="14.0" />
             </font>
         </Label>
-        <Label layoutX="43.0" layoutY="89.0" text="Evidence ID :">
+        <Label layoutX="27.0" layoutY="90.0" text="Evidence ID :">
             <font>
                 <Font size="14.0" />
             </font>
         </Label>
-        <TextField fx:id="eviIdTextField" layoutX="152.0" layoutY="90.0" prefHeight="26.0" prefWidth="204.0" />
-        <TableView fx:id="eviTable" layoutX="43.0" layoutY="381.0" prefHeight="238.0" prefWidth="566.0" style="-fx-border-color: black;">
+        <TextField fx:id="eviIdTextField" layoutX="136.0" layoutY="91.0" prefHeight="26.0" prefWidth="204.0" />
+        <TableView fx:id="eviTable" layoutX="43.0" layoutY="381.0" prefHeight="220.0" prefWidth="566.0" style="-fx-border-color: black;">
             <columns>
                 <TableColumn fx:id="eviIdTableCol" prefWidth="79.20001602172852" text="Evidence ID" />
                 <TableColumn fx:id="eviNameTableCol" prefWidth="121.59994506835938" text="Evidence Name" />
@@ -47,12 +47,12 @@
                 <TableColumn fx:id="caseIdCol" prefWidth="107.20001220703125" text="Case ID" />
             </columns>
         </TableView>
-        <Button layoutX="625.0" layoutY="477.0" mnemonicParsing="false" onAction="#loadTableButtonOnClick" prefHeight="46.0" prefWidth="178.0" style="-fx-background-radius: 20;" text="Load Table">
+        <Button layoutX="624.0" layoutY="451.0" mnemonicParsing="false" onAction="#loadTableButtonOnClick" prefHeight="46.0" prefWidth="140.0" style="-fx-background-radius: 50px;" text="Load Table">
             <font>
                 <Font name="Verdana" size="14.0" />
             </font>
         </Button>
-        <Button layoutX="629.0" layoutY="416.0" mnemonicParsing="false" onAction="#loadPieChartButtonOnClick" prefHeight="46.0" prefWidth="170.0" style="-fx-background-radius: 20;" text="Generate Pie Chart">
+        <Button layoutX="616.0" layoutY="398.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loadPieChartButtonOnClick" prefHeight="46.0" prefWidth="156.0" style="-fx-background-radius: 50px;" text="Generate Pie Chart">
             <font>
                 <Font name="Verdana" size="14.0" />
             </font>
@@ -62,18 +62,18 @@
                 <Font name="Tahoma Bold" size="36.0" />
             </font>
         </Label>
-        <Line endX="586.9999389648438" layoutX="230.0" layoutY="369.0" startX="-199.40000915527344" stroke="#5b5a5a" strokeWidth="2.0" />
-        <Button layoutX="640.0" layoutY="573.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" prefHeight="34.0" prefWidth="148.0" style="-fx-background-radius: 20;" text="Return Home">
+        <Line endX="561.2000122070312" layoutX="230.0" layoutY="369.0" startX="-230.0" stroke="#5b5a5a" strokeWidth="2.0" />
+        <Button layoutX="632.0" layoutY="540.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" prefHeight="34.0" prefWidth="124.0" style="-fx-background-radius: 20;" text="Return Home">
             <font>
                 <Font name="Verdana" size="14.0" />
             </font>
         </Button>
-        <PieChart fx:id="eviPieChart" layoutX="369.0" layoutY="78.0" prefHeight="282.0" prefWidth="453.0" style="-fx-border-color: white; -fx-border-width: 2;" title="Pie Chart" />
-        <Label layoutX="43.0" layoutY="305.0" prefHeight="20.0" prefWidth="61.0" text="Case ID:">
+        <PieChart fx:id="eviPieChart" layoutX="355.0" layoutY="79.0" prefHeight="260.0" prefWidth="408.0" style="-fx-border-color: white; -fx-border-width: 2;" title="Pie Chart" />
+        <Label layoutX="27.0" layoutY="305.0" prefHeight="20.0" prefWidth="61.0" text="Case ID:">
             <font>
                 <Font size="14.0" />
             </font>
         </Label>
-        <TextField fx:id="caseIdTextField" layoutX="151.0" layoutY="302.0" prefHeight="26.0" prefWidth="204.0" />
+        <TextField fx:id="caseIdTextField" layoutX="135.0" layoutY="302.0" prefHeight="26.0" prefWidth="204.0" />
     </children>
 </AnchorPane>

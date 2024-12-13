@@ -12,11 +12,11 @@
       <TextField fx:id="institutionNameTextField" layoutX="204.0" layoutY="20.0" prefHeight="27.0" prefWidth="176.0" promptText="Institution Name" style="-fx-border-color: #65ada5;" />
       <TextArea fx:id="surveyDetailsTextArea" layoutX="32.0" layoutY="125.0" prefHeight="89.0" prefWidth="535.0" promptText="Request Details" style="-fx-border-color: #65ada5;" wrapText="true" />
       <Label layoutX="32.0" layoutY="100.0" prefHeight="17.0" prefWidth="62.0" text="Contant:" />
-      <Button layoutX="204.0" layoutY="222.0" mnemonicParsing="false" onAction="#sendInitialSurveyRequestOnClick" prefHeight="25.0" prefWidth="113.0" style="-fx-border-color: #65ada5; -fx-background-color: #878ef5;" text="Send Request" />
+      <Button layoutX="248.0" layoutY="219.0" mnemonicParsing="false" onAction="#sendInitialSurveyRequestOnClick" prefHeight="25.0" prefWidth="113.0" style="-fx-border-color: #65ada5; -fx-background-color: #878ef5;" text="Send Request" />
       <DatePicker fx:id="surveyDatePicker" layoutX="204.0" layoutY="55.0" promptText="Survey Date" style="-fx-border-color: #65ada5;" />
       <TextField fx:id="investigatorIdTextField" layoutX="32.0" layoutY="20.0" promptText="Investigator Id:" style="-fx-border-color: #65ada5;" />
       <Button layoutX="433.0" layoutY="361.0" mnemonicParsing="false" onAction="#backDashBoardOnAction" prefHeight="25.0" prefWidth="151.0" text="Back To DashBoard" />
       <TextField fx:id="institutionLocationTextField" layoutX="33.0" layoutY="56.0" promptText="Institution Location:" />
-      <TextArea fx:id="notificationTextArea" editable="false" layoutX="33.0" layoutY="247.0" prefHeight="105.0" prefWidth="543.0" wrapText="true" />
+      <TextArea fx:id="notificationTextArea" editable="false" layoutX="33.0" layoutY="275.0" prefHeight="58.0" prefWidth="543.0" wrapText="true" />
    </children>
 </AnchorPane>

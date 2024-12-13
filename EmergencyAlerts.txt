@@ -1,6 +1,2 @@
-emergancyAlertId: 213,
- institutionName: iub,
- institutionLocation: uttara,
- alertReciever: Security Officer,
- description: Orpa
-
+123,iub,uttara,Operations Administrator,ddd
+123,iub,uttara,Operations Administrator,dddd

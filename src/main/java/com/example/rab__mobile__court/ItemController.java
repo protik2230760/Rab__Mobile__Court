@@ -20,11 +20,15 @@ public class ItemController
     }
 
     @javafx.fxml.FXML
-    public void signOutOA(ActionEvent actionEvent) {
+    public void signOutOA(ActionEvent actionEvent)throws IOException {
+        SceneSwitcher.switchScene("Login.fxml",actionEvent, "DashBoard");
     }
 
     @javafx.fxml.FXML
-    public void EmergencySupportOA(ActionEvent actionEvent) {
+    public void EmergencySupportOA(ActionEvent actionEvent)throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("emergencySupport.fxml"));
+        Node node = fxmlLoader.load() ;
+        dashboardBP.setCenter(node);
     }
 
     @javafx.fxml.FXML
@@ -47,7 +51,10 @@ public class ItemController
     }
 
     @javafx.fxml.FXML
-    public void SubordinateManagementOA(ActionEvent actionEvent) {
+    public void SubordinateManagementOA(ActionEvent actionEvent)throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("subordinateManagment.fxml"));
+        Node node = fxmlLoader.load() ;
+        dashboardBP.setCenter(node);
     }
 
     @javafx.fxml.FXML

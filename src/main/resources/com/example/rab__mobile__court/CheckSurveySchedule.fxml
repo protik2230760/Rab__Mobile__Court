@@ -5,9 +5,9 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.CheckSurveyScheduleController">
+<AnchorPane id="AnchorPane" fx:id="loadSurveySchedule" onDragDetected="#loadSurveySchedule" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.CheckSurveyScheduleController">
    <children>
-      <TableView fx:id="surveyScheduleTableView" layoutX="14.0" layoutY="27.0" prefHeight="306.0" prefWidth="572.0" style="-fx-background-color: #F2F2F2;">
+      <TableView fx:id="surveyScheduleTableView" layoutX="7.0" layoutY="82.0" prefHeight="251.0" prefWidth="575.0" style="-fx-background-color: #F2F2F2;">
          <columns>
             <TableColumn fx:id="surveyIdCol" prefWidth="109.0" text="Survey Id" />
             <TableColumn fx:id="institutionCol" prefWidth="148.0" text="Institution name" />

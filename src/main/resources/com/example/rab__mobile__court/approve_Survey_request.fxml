@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="657.0" style="-fx-background-color: #9bb4f2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Approve_Survey_RequestController">
+<children>
+    <TableView fx:id="initialSurveyRequestTableView" layoutX="7.0" layoutY="10.0" prefHeight="331.0" prefWidth="639.0" style="-fx-background-color: #e3fafc;">
+        <columns>
+            <TableColumn fx:id="investigatorIdCol" prefWidth="124.0" text="Investigator Id" />
+            <TableColumn fx:id="instituionNameCol" minWidth="0.0" prefWidth="118.0" text="Institution Name" />
+            <TableColumn fx:id="institutionLocationCol" prefWidth="127.0" text="Institution Location" />
+            <TableColumn fx:id="surveyDate" minWidth="0.0" prefWidth="94.0" text="Survey Date" />
+            <TableColumn fx:id="surveyDetails" prefWidth="168.0" text="Survey Dtails" />
+        </columns>
+    </TableView>
+    <Button layoutX="92.0" layoutY="358.0" mnemonicParsing="false" onAction="#approveSurveyRequestOnClick" style="-fx-background-color: #878ef5;" text="Approve Suevey Request" />
+    <Button layoutX="277.0" layoutY="358.0" mnemonicParsing="false" onAction="#rejectSurveyRequestOnClick" style="-fx-background-color: #878ef5;" text="Reject Suevey Request" />
+    <Button layoutX="433.0" layoutY="405.0" mnemonicParsing="false" onAction="#backToDashBoardOnClick" prefHeight="25.0" prefWidth="156.0" text="Back To Dashboard" />
+</children>
+</AnchorPane>

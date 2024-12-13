@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Orpa1DashboardController">
+<BorderPane fx:id="dashboardBP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Orpa1DashboardController">
 <left>
     <AnchorPane prefHeight="576.0" prefWidth="247.0" style="-fx-background-color: #05071F;" BorderPane.alignment="CENTER">
         <children>
@@ -21,10 +21,10 @@
                <font>
                   <Font name="Berlin Sans FB Demi Bold" size="12.0" />
                </font></Label>
-            <Button layoutY="211.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#scheduleMeetingOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Scheedule Meeting" />
+            <Button layoutY="211.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#scheduleMeeting1OnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Scheedule Meeting" />
             <Button layoutY="253.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ApproveSurveyRequestOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Approve Survey Request" />
             <Button layoutY="295.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#viewSurveyReportOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="View Survey Report" />
-            <Button layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#EmergencySupportOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Assign Survey List" />
+            <Button layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#EmergencySupport1OA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Assign Survey List" />
             <Button layoutY="379.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#viewSurveyChartOnAction" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="View Survey Chart" />
             <Button layoutY="421.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#generateCaseReportOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Generate Case Report" />
             <Button layoutY="463.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#makeChartOfCaseOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Make Chart of Case" />
@@ -78,7 +78,4 @@
         </children>
     </AnchorPane>
 </left>
-<center>
-    <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
-</center>
 </BorderPane>

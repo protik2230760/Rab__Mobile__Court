@@ -2,18 +2,16 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.DatePicker?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.Make_Survey_ScheduleController">
    <children>
-      <TextField fx:id="surveyIdTextField" layoutX="78.0" layoutY="61.0" promptText="Enter Survey Id" style="-fx-border-color: #65ada5;" />
-      <TextField fx:id="InstitutionNameTextField" layoutX="78.0" layoutY="103.0" promptText="Instiitution Name : " style="-fx-border-color: #65ada5;" />
-      <TextField fx:id="institutionLocationTextField" layoutX="79.0" layoutY="140.0" promptText="Location : " style="-fx-border-color: #65ada5;" />
-      <DatePicker fx:id="surveyDatePicker" layoutX="79.0" layoutY="173.0" prefHeight="25.0" prefWidth="149.0" promptText="Survey Date" style="-fx-border-color: #65ada5;" />
-      <Button layoutX="423.0" layoutY="212.0" mnemonicParsing="false" onAction="#saveSurveyScheduleOnClick" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #3470BF;" text="Save " textFill="#f7f3f3" />
-      <Label fx:id="notificationTextArea" layoutX="238.0" layoutY="60.0" prefHeight="140.0" prefWidth="312.0" style="-fx-background-color: white;" wrapText="true" />
+      <TextField fx:id="surveyIdTextField" layoutX="199.0" layoutY="44.0" promptText="Enter Survey Id" style="-fx-border-color: #65ada5;" />
+      <TextField fx:id="InstitutionNameTextField" layoutX="199.0" layoutY="86.0" promptText="Instiitution Name : " style="-fx-border-color: #65ada5;" />
+      <TextField fx:id="institutionLocationTextField" layoutX="200.0" layoutY="123.0" promptText="Location : " style="-fx-border-color: #65ada5;" />
+      <DatePicker fx:id="surveyDatePicker" layoutX="200.0" layoutY="156.0" prefHeight="25.0" prefWidth="149.0" promptText="Survey Date" style="-fx-border-color: #65ada5;" />
+      <Button layoutX="218.0" layoutY="194.0" mnemonicParsing="false" onAction="#saveSurveyScheduleOnClick" prefHeight="26.0" prefWidth="115.0" style="-fx-background-color: #3470BF; -fx-background-radius: 50px; -fx-border-radius: 50Px;" text="Save " textFill="#f7f3f3" />
       <Button layoutX="423.0" layoutY="347.0" mnemonicParsing="false" onAction="#backToDashBoardOnAction" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #3470BF;" text="Back to DahBoard" textFill="#fcf7f7" />
    </children>
 </AnchorPane>

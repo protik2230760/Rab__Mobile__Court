@@ -9,20 +9,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="576.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.EmergencySupportSceneController">
+<AnchorPane id="AnchorPane" prefHeight="623.0" prefWidth="751.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.EmergencySupportSceneController">
     <children>
-        <Button layoutX="56.0" layoutY="134.0" mnemonicParsing="false" onAction="#loadEmergencyReqButtonOnClick" prefHeight="26.0" prefWidth="198.0" style="-fx-background-radius: 50px;" text="Load Emergency Request">
+        <Button layoutX="14.0" layoutY="163.0" mnemonicParsing="false" onAction="#loadEmergencyReqButtonOnClick" prefHeight="26.0" prefWidth="198.0" style="-fx-background-radius: 50px;" text="Load Emergency Request">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
-        <TableView fx:id="tableView" layoutX="14.0" layoutY="202.0" prefHeight="200.0" prefWidth="420.0" style="-fx-border-color: black;">
+        <TableView fx:id="tableView" layoutX="12.0" layoutY="202.0" prefHeight="200.0" prefWidth="423.0" style="-fx-border-color: black;">
             <columns>
                 <TableColumn fx:id="emergIdTableCol" prefWidth="94.39996337890625" text="Emergency ID" />
                 <TableColumn fx:id="instiNameTableCol" prefWidth="117.59996032714844" text="Institution Name" />
                 <TableColumn fx:id="locationCol" prefWidth="102.4000244140625" text="Location" />
                 <TableColumn fx:id="helDesCol" prefWidth="104.79998779296875" text="Help Description" />
-                <TableColumn prefWidth="104.79998779296875" text="Help Description" />
             </columns>
         </TableView>
         <Label layoutX="56.0" layoutY="420.0" text="Request ID" textFill="#2e1a1a">
@@ -48,13 +47,13 @@
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
-        <TextArea fx:id="responseTextArea" layoutX="484.0" layoutY="196.0" prefHeight="200.0" prefWidth="304.0" style="-fx-border-color: black;" />
-        <Button layoutX="589.0" layoutY="525.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" prefHeight="26.0" prefWidth="198.0" style="-fx-background-radius: 50px;" text="Return Home">
+        <TextArea fx:id="responseTextArea" layoutX="447.0" layoutY="202.0" prefHeight="111.0" prefWidth="293.0" style="-fx-border-color: black;" />
+        <Button layoutX="519.0" layoutY="541.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" prefHeight="26.0" prefWidth="198.0" style="-fx-background-radius: 50px;" text="Return Home">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
-        <Label layoutX="508.0" layoutY="153.0" prefHeight="27.0" prefWidth="95.0" text="Response" textFill="#2e1a1a">
+        <Label layoutX="447.0" layoutY="164.0" prefHeight="27.0" prefWidth="95.0" text="Response" textFill="#2e1a1a">
             <font>
                 <Font name="System Bold" size="18.0" />
             </font>

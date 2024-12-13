@@ -17,12 +17,13 @@ public class Orpa2DashboardController
     }
 
     @javafx.fxml.FXML
-    public void signOutOA(ActionEvent actionEvent) {
+    public void signOutOA(ActionEvent actionEvent)throws IOException {
+        SceneSwitcher.switchScene("Login.fxml",actionEvent, "DashBoard");
     }
 
     @javafx.fxml.FXML
     public void makeScheeduleOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Overview.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("makeSurveySchdule.fxml"));
         Node node = fxmlLoader.load() ;
         dashboardBP.setCenter(node);
     }
@@ -36,7 +37,7 @@ public class Orpa2DashboardController
 
     @javafx.fxml.FXML
     public void InitialSurveyReportingOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Overview.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("InitialSurveyReport.fxml"));
         Node node = fxmlLoader.load() ;
         dashboardBP.setCenter(node);
     }
@@ -50,7 +51,7 @@ public class Orpa2DashboardController
 
     @javafx.fxml.FXML
     public void checkScheduleOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Overview.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CheckSurveySchedule.fxml"));
         Node node = fxmlLoader.load() ;
         dashboardBP.setCenter(node);
     }

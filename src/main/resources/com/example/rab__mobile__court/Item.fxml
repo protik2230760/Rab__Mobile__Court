@@ -74,4 +74,11 @@
             </children>
         </AnchorPane>
     </left>
+   <center>
+      <ImageView fitHeight="420.0" fitWidth="476.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../image/Rapid_Action_Battalion_(RAB)_Emblem.svg.png" />
+         </image>
+      </ImageView>
+   </center>
 </BorderPane>
