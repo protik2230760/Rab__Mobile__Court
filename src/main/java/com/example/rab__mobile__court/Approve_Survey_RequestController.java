@@ -105,6 +105,6 @@ public class Approve_Survey_RequestController {
 
     @FXML
     public void backToDashBoardOnClick(ActionEvent actionEvent) throws IOException {
-        SceneSwitcher.switchScene("Orpa2DashBoard.fxml", actionEvent, "DashBoard");
+        SceneSwitcher.switchScene("Orpa1DashBoard.fxml", actionEvent, "DashBoard");
     }
 }

@@ -22,7 +22,7 @@
                 <Button layoutY="295.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#RecordDefendantDetailsOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Record Defendant Details" />
                 <Button layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#manageEvidanceOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Store Evidence and Exhibits" />
                 <Button layoutY="379.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#EmergencySupportOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Emergency Support" />
-                <Button layoutY="421.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#SubordinateManagementOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Subordinate Management" />
+                <Button layoutY="421.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#caseFileOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Create Case File" />
                 <Button layoutY="463.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#additionalCaseInformationOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Additional Case Information" />
                 <Button layoutY="505.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#signOutOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Sign Out" />
                 <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">

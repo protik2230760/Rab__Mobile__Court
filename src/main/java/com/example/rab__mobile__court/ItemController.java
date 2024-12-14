@@ -51,13 +51,6 @@ public class ItemController
     }
 
     @javafx.fxml.FXML
-    public void SubordinateManagementOA(ActionEvent actionEvent)throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("subordinateManagment.fxml"));
-        Node node = fxmlLoader.load() ;
-        dashboardBP.setCenter(node);
-    }
-
-    @javafx.fxml.FXML
     public void requestSearchWarrantOA(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("requestSearchWarrent.fxml"));
         Node node = fxmlLoader.load() ;
@@ -78,5 +71,12 @@ public class ItemController
         dashboardBP.setCenter(node);
 
 
+    }
+
+    @javafx.fxml.FXML
+    public void caseFileOA(ActionEvent actionEvent)throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("createCaseFile.fxml"));
+        Node node = fxmlLoader.load() ;
+        dashboardBP.setCenter(node);
     }
 }

@@ -1,4 +1,3 @@
-// Controller for Initial Survey Report
 package com.example.rab__mobile__court;
 
 import javafx.collections.FXCollections;

@@ -44,7 +44,7 @@ public class Orpa2DashboardController
 
     @javafx.fxml.FXML
     public void submitSurveyReportOnAction(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Overview.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SubmitSurveyReport.fxml"));
         Node node = fxmlLoader.load() ;
         dashboardBP.setCenter(node);
     }

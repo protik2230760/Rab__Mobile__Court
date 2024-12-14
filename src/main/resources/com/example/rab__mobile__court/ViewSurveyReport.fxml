@@ -14,8 +14,8 @@
       <TextField fx:id="surveyIdTextField" layoutX="149.0" layoutY="36.0" />
       <Button layoutX="515.0" layoutY="405.0" mnemonicParsing="false" onAction="#backToDashBoardOnClick" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #3470BF;" text="Back To DashBoard" textFill="#f7f3f3" />
       <Label layoutX="343.0" layoutY="28.0" prefHeight="42.0" prefWidth="172.0" text="Select Survey Month and Year:" wrapText="true" />
-      <ComboBox fx:id="monthComboBox" layoutX="526.0" layoutY="37.0" prefWidth="150.0" />
-      <ComboBox fx:id="yearComboBox" layoutX="526.0" layoutY="70.0" prefWidth="150.0" />
+      <ComboBox fx:id="surveyMonthComboBox" layoutX="526.0" layoutY="37.0" prefWidth="150.0" />
+      <ComboBox fx:id="surveyYearComboBox" layoutX="526.0" layoutY="70.0" prefWidth="150.0" />
       <Label layoutX="29.0" layoutY="40.0" prefHeight="18.0" prefWidth="127.0" text="Enter Survey Id:" />
    </children>
 </AnchorPane>

@@ -27,10 +27,11 @@
                 <Font name="System Bold" size="14.0" />
             </font>
         </Button>
-        <TableView fx:id="tableView" layoutX="85.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0">
+        <TableView fx:id="loadCasetableView" layoutX="85.0" layoutY="210.0" prefHeight="200.0" prefWidth="302.0">
             <columns>
-                <TableColumn prefWidth="75.0" text="C1" />
-                <TableColumn prefWidth="75.0" text="C2" />
+                <TableColumn fx:id="caseIDtableColumn" prefWidth="75.0" text="Case ID" />
+                <TableColumn fx:id="caseTitleTableColumn" prefWidth="75.0" text="Case Title" />
+            <TableColumn fx:id="definfotableColumn" prefWidth="151.19997253417966" text="Defendant ID ,Name" />
             </columns>
         </TableView>
         <Label layoutX="425.0" layoutY="201.0" text="Case ID:">
@@ -45,30 +46,24 @@
             </font>
         </Label>
         <TextField fx:id="caseTitleTextField" layoutX="577.0" layoutY="235.0" />
-        <Label layoutX="425.0" layoutY="277.0" text="Defendant ID:">
+        <Label layoutX="425.0" layoutY="277.0" text="Defendant info:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
         <TextField fx:id="defIdTextField" layoutX="577.0" layoutY="274.0" />
-        <Label layoutX="423.0" layoutY="316.0" text="Defendant Name:">
+        <Label layoutX="421.0" layoutY="313.0" prefWidth="127.0" text="Next Hearing Date:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <TextField fx:id="defNameTextField" layoutX="577.0" layoutY="313.0" />
-        <Label layoutX="424.0" layoutY="357.0" prefWidth="127.0" text="Next Hearing Date:">
+        <DatePicker fx:id="nextHearDatePicker" layoutX="574.0" layoutY="310.0" prefHeight="26.0" prefWidth="150.0" />
+        <Label layoutX="416.0" layoutY="355.0" prefHeight="20.0" prefWidth="150.0" text="Proposed Court Room:">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
         </Label>
-        <DatePicker fx:id="nextHearDatePicker" layoutX="577.0" layoutY="354.0" prefHeight="26.0" prefWidth="150.0" />
-        <Label layoutX="419.0" layoutY="399.0" prefHeight="20.0" prefWidth="150.0" text="Proposed Court Room:">
-            <font>
-                <Font name="System Bold" size="14.0" />
-            </font>
-        </Label>
-        <ComboBox fx:id="propCourtRoomCB" layoutX="577.0" layoutY="397.0" prefWidth="150.0" />
+        <ComboBox fx:id="propCourtRoomCB" layoutX="574.0" layoutY="353.0" prefWidth="150.0" />
         <Label layoutX="85.0" layoutY="533.0" prefHeight="20.0" prefWidth="141.0" text="View Hearing Details:">
             <font>
                 <Font name="System Bold" size="14.0" />

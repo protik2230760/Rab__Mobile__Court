@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="dashboardBP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.fahmida2DashboardController">
+   <left>
+      <AnchorPane prefHeight="576.0" prefWidth="247.0" style="-fx-background-color: #05071F;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="109.0" layoutX="73.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/fotor-2024121403736.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="34.0" layoutY="116.0" prefHeight="18.0" prefWidth="170.0" text="           Fahmida Jamil" textAlignment="CENTER" textFill="#1d11ff" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutY="211.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#updateCaseStatusButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Update Case Status" />
+            <Button layoutY="253.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#caseDetailsButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Case Details" />
+            <Button layoutY="295.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addCommentsAboutCasesButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Add Comments On Cases" />
+            <Button layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#detailsOfDefendantsButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Details Of Defendants" />
+            <Button layoutY="379.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reportButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Report " />
+            <Button layoutY="421.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#contactRABOfficerButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Contact RAB Officers" />
+            <Button layoutY="463.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#contactDistrictOfficeButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Contact District Officers" />
+            <Button layoutY="505.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#signOutOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Sign Out" />
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/audit_12062268.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/search_11865771.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/shield_6822358.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/contract_446657.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/notice_6606487.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/sos_11796956.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/icons8_Meanpath_64px_2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="515.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/icons8_Sign_Out_32px.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1.0" layoutY="168.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#caseDetailsButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="View Assigned Cases" />
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/project-manager_11445634.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
