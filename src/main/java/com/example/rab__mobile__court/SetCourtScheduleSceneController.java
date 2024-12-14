@@ -8,6 +8,7 @@ import javafx.scene.control.*;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class SetCourtScheduleSceneController {
@@ -112,6 +113,7 @@ public class SetCourtScheduleSceneController {
     }
 
     @FXML
-    public void returnHomeButtonOnClick(ActionEvent actionEvent) {
+    public void returnHomeButtonOnClick(ActionEvent actionEvent)throws IOException {
+        SceneSwitcher.switchScene("MagistrateDashboard.fxml", actionEvent, "Home");
     }
 }

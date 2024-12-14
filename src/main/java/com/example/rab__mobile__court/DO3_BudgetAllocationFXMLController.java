@@ -115,12 +115,23 @@ public class DO3_BudgetAllocationFXMLController {
 
     @FXML
     public void pieChartButtonOnClick(ActionEvent event) {
-        budgetPieChart.getData().clear();
         ObservableList<PieChart.Data> pieData = FXCollections.observableArrayList();
+
         for (Budget allocation : budgetList) {
             pieData.add(new PieChart.Data(allocation.getOperationType(), allocation.getBudget()));
         }
+
         budgetPieChart.setData(pieData);
+
+        for (PieChart.Data data : budgetPieChart.getData()) {
+            data.getNode().addEventHandler(javafx.scene.input.MouseEvent.MOUSE_CLICKED, event1 -> {
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Budget Details");
+                alert.setHeaderText("Operation Type: " + data.getName());
+                alert.setContentText("Budget: " + data.getPieValue() + " Tk.");
+                alert.showAndWait();
+            });
+        }
     }
 
     private void loadBudgetsFromFile() {

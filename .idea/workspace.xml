@@ -5,42 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b217cb6-a63f-4c0d-bf95-855030680574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Budget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Case1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/CaseAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/CaseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/CommandOpertaion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/MagistrateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Operation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/MagistrateDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/CriminalActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/IssuedWarrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SurveyData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/VerdictDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ViewCaseDetailsFXMLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/ViewCaseDetails.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseFiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CaseFiles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO1_CommandOperationsAdministratorFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO1_CommandOperationsAdministratorFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO2_CaseDetailsFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO2_CaseDetailsFXMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/AnalyzCrimActivSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/AnalyzCrimActivSceneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO3_BudgetAllocationFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO3_BudgetAllocationFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO4_AssignNewOperationsFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO4_AssignNewOperationsFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO5_AssignLawyerFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/DO5_AssignLawyerFXMLController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L1_ViewAssignedCasesFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L1_ViewAssignedCasesFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L2_DetailsOfDefendantFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L2_DetailsOfDefendantFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L3_CaseDetailsFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L3_CaseDetailsFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L4_AddCommentsOnCasesFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L4_AddCommentsOnCasesFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L5_UpdateCaseStatusFXMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/L5_UpdateCaseStatusFXMLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/fahmida2DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/fahmida2DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/fahmidaDashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/fahmidaDashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO1_CommandOperationsAdministrator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO1_CommandOperationsAdministrator.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO3_BudgetAllocation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO3_BudgetAllocation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO4_AssignNewOperations.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO4_AssignNewOperations.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO5_AssignLawyer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/DO5_AssignLawyer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/L2_DetailsOfDefendant.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/L2_DetailsOfDefendant.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/L4_AddCommentsOnCases.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/L4_AddCommentsOnCases.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/L5_UpdateCaseStatus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/L5_UpdateCaseStatus.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/fahmidaDashboard2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/fahmidaDashboard2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/fahmidadasboard1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/fahmidadasboard1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/MagisIssueSerWarSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/MagisIssueSerWarSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/MagistrateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/MagistrateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Orpa1DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/Orpa1DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SetCourtScheduleSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/SetCourtScheduleSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/VerdictDetailsInfoSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/VerdictDetailsInfoSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/viewSurveyChartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rab__mobile__court/viewSurveyChartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/MagistrateDashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/MagistrateDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Orpa1Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/Orpa1Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/VerdictDetailsInfoScene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/ViewSurveyReport.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/ViewSurveyReport.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/analyseCriminalA.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/analyseCriminalA.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/viewSurveyChart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/rab__mobile__court/viewSurveyChart.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +110,7 @@
       <workItem from="1733983187075" duration="15466000" />
       <workItem from="1734014208371" duration="15168000" />
       <workItem from="1734067780279" duration="31083000" />
-      <workItem from="1734173919589" duration="11249000" />
+      <workItem from="1734173919589" duration="24579000" />
     </task>
     <servers />
   </component>

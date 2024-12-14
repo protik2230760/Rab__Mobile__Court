@@ -7,7 +7,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="459.0" prefWidth="691.0" style="-fx-background-color: #A7DDF2;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ViewSurveyReportController">
+<AnchorPane prefHeight="459.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ViewSurveyReportController">
    <children>
       <TextArea fx:id="displaySurveyReportOnClick" layoutX="205.0" layoutY="113.0" prefHeight="266.0" prefWidth="470.0" />
       <Button layoutX="29.0" layoutY="113.0" mnemonicParsing="false" onAction="#viewSurveyReportOnClick" style="-fx-background-color: #3470BF;" text="Click To view Survey Report" textFill="#f4f1f1" />

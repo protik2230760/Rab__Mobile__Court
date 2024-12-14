@@ -32,7 +32,10 @@ public class ItemController
     }
 
     @Deprecated
-    public void additionalCaseInformationOA(ActionEvent actionEvent) {
+    public void additionalCaseInformationOA(ActionEvent actionEvent) throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("additionallyCaseInformation.fxml"));
+        Node node = fxmlLoader.load() ;
+        dashboardBP.setCenter(node);
     }
 
     @Deprecated

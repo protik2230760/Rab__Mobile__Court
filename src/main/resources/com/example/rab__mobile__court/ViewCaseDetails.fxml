@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.ViewCaseDetailsFXMLController">
+   <children>
+      <Button layoutX="289.0" layoutY="115.0" mnemonicParsing="false" onAction="#searchCaseDetailsOnClick" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Search Case Details">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="caseNumberTextField" layoutX="30.0" layoutY="115.0" prefHeight="40.0" prefWidth="200.0" promptText="Enter Case Number" style="-fx-background-color: #ffebee;" />
+      <Button layoutX="565.0" layoutY="517.0" mnemonicParsing="false" onAction="#returnHomeOnClick" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Return Home">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="caseDetailsTextArea" layoutX="30.0" layoutY="180.0" prefHeight="249.0" prefWidth="735.0" />
+   </children>
+</AnchorPane>

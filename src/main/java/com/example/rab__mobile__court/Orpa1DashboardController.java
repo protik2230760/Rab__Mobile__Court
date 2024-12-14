@@ -28,7 +28,10 @@ public class Orpa1DashboardController
     }
 
     @javafx.fxml.FXML
-    public void viewSurveyChart1OnAction(ActionEvent actionEvent) {
+    public void viewSurveyChart1OnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("viewSurveyChart.fxml"));
+        Node node = fxmlLoader.load() ;
+        dashboardBP.setCenter(node);
     }
 
     @javafx.fxml.FXML
