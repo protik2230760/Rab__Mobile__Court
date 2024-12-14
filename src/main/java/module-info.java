@@ -1,6 +1,7 @@
 module com.example.rab__mobile__court {
     requires javafx.controls;
     requires javafx.fxml;
+    requires jdk.dynalink;
     requires java.logging;
 
 

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="dashboardBP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.MagistrateController">
+   <left>
+      <AnchorPane prefHeight="576.0" prefWidth="247.0" style="-fx-background-color: #05071F;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="67.0" layoutX="91.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/jimmy-fallon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="67.0" layoutY="108.0" text="Saidur Rahman Protik" textFill="#aea29e" />
+            <Button layoutY="211.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToViewCaseInfoSceneOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="View Case Information" />
+            <Button layoutY="253.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToAnaCrimActiSceneOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Analyze Criminal Activity" />
+            <Button layoutY="295.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToSetCourtSchedSceneOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Set Court Schedule" />
+            <Button layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToIssueSerWarSceneOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Issue Search Warrant" />
+            <Button layoutY="379.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToAnnVerCreRepSceneOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Announce Verdict &amp; Create Report" />
+            <Button layoutY="421.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToContCourtClerkSceneOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Contact Court Clerk" />
+            <Button layoutY="463.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goToVerPieChartSceneOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Verdict Pie Chart" />
+            <Button layoutY="505.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#signOutOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Sign Out" />
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/search_11865771.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/shield_6822358.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/contract_446657.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/icons8_GPS_Antenna_64px_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/sos_11796956.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/project-manager_11445634.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/notice_6606487.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="515.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/icons8_Sign_Out_32px.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1.0" layoutY="168.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#OverviewOA" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Overview" />
+            <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/images/icons8_Home_32px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <ImageView fitHeight="594.0" fitWidth="646.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../image/29118205.jpg" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>

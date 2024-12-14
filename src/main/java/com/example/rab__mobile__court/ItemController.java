@@ -24,25 +24,25 @@ public class ItemController
         SceneSwitcher.switchScene("Login.fxml",actionEvent, "DashBoard");
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void EmergencySupportOA(ActionEvent actionEvent)throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("emergencySupport.fxml"));
         Node node = fxmlLoader.load() ;
         dashboardBP.setCenter(node);
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void additionalCaseInformationOA(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void RecordDefendantDetailsOA(ActionEvent actionEvent) throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("defendentInfo.fxml"));
         Node node = fxmlLoader.load() ;
         dashboardBP.setCenter(node);
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void CreateIncidentReportOA(ActionEvent actionEvent) throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("incidentReport.fxml"));
         Node node = fxmlLoader.load() ;
@@ -50,7 +50,7 @@ public class ItemController
 
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void requestSearchWarrantOA(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("requestSearchWarrent.fxml"));
         Node node = fxmlLoader.load() ;
@@ -64,7 +64,7 @@ public class ItemController
         dashboardBP.setCenter(node);
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void manageEvidanceOA(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("manageEvidance.fxml"));
         Node node = fxmlLoader.load() ;
@@ -73,7 +73,7 @@ public class ItemController
 
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void caseFileOA(ActionEvent actionEvent)throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("createCaseFile.fxml"));
         Node node = fxmlLoader.load() ;

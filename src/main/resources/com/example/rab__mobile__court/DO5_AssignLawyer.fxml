@@ -21,13 +21,6 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="418.0" layoutY="393.0" mnemonicParsing="false" onAction="#returnHomeOnClick" prefHeight="0.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Return Home">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor></Button>
       <TableView fx:id="caseAndLaywerNameTableView" layoutX="317.0" layoutY="66.0" prefHeight="321.0" prefWidth="301.0">
         <columns>
           <TableColumn fx:id="caseNumColumn" text="Case Number" />
@@ -36,7 +29,6 @@
         </columns>
       </TableView>
       <TextField fx:id="caseDetailsTextField" alignment="TOP_LEFT" layoutX="14.0" layoutY="132.0" prefHeight="174.0" prefWidth="281.0" promptText="Write about the case...." style="-fx-background-color: #ffebee;" />
-      <Label fx:id="showerrormessageLabel" layoutX="14.0" layoutY="346.0" prefHeight="62.0" prefWidth="281.0" textAlignment="CENTER" wrapText="true" />
       <Button layoutX="14.0" layoutY="316.0" mnemonicParsing="false" onAction="#loadInTheTableButtonOnClick" prefHeight="0.0" prefWidth="281.0" style="-fx-background-color: #8d6e63;" text="Load In The Table">
          <font>
             <Font name="System Bold" size="14.0" />
@@ -45,5 +37,6 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
+      <Label fx:id="showerrormessageLabel" layoutX="34.0" layoutY="405.0" prefHeight="18.0" prefWidth="253.0" />
    </children>
 </AnchorPane>

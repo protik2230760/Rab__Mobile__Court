@@ -88,7 +88,7 @@
                     </font>
                 </Label>
                 <ComboBox fx:id="userTypeComboBox" layoutX="484.0" layoutY="210.0" prefHeight="35.0" prefWidth="247.0" style="-fx-border-color: transparant; -fx-border-radius: 50px;" />
-            <Label fx:id="notificationlabel" layoutX="498.0" layoutY="401.0" prefHeight="17.0" prefWidth="233.0" />
+            <Label fx:id="notificationlabel" layoutX="498.0" layoutY="377.0" prefHeight="41.0" prefWidth="233.0" />
             </children>
         </Pane>
     </children>

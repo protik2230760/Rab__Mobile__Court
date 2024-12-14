@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #d7ccc8;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.L4_AddCommentsOnCasesFXMLController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #d7ccc8;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rab__mobile__court.L4_AddCommentsOnCasesFXMLController">
    <children>
       <TextField fx:id="caseNumberTextField" layoutX="180.0" layoutY="101.0" prefHeight="40.0" prefWidth="200.0" promptText="Case Number" style="-fx-background-color: #ffebee;" />
       <Label layoutX="52.0" layoutY="101.0" prefHeight="40.0" prefWidth="127.0" text="Case Number :">
@@ -32,12 +32,7 @@
             <Font name="Times New Roman Bold Italic" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="560.0" layoutY="483.0" mnemonicParsing="false" onAction="#saveToFileButtonOnCliuck" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Save To File">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Button>
-      <Button layoutX="560.0" layoutY="540.0" mnemonicParsing="false" onAction="#returnHomeButtonOnClick" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Return Home">
+      <Button layoutX="534.0" layoutY="534.0" mnemonicParsing="false" onAction="#saveToFileButtonOnCliuck" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #8d6e63;" text="Save To File">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

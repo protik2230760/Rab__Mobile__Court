@@ -91,7 +91,7 @@ public class DO2_CaseDetailsFXMLController {
 
     @FXML
     public void logOutButtonOnClick(ActionEvent actionEvent) throws Exception {
-        SceneSwitcher.switchScene("Orpa2DashBoard.fxml", actionEvent, "Dashboard");
+        SceneSwitcher.switchScene("fahmidadasboard1.fxml", actionEvent, "Dashboard");
     }
 
     private void showAlert(String title, String message) {

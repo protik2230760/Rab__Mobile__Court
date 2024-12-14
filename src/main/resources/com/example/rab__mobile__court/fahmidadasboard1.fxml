@@ -23,7 +23,7 @@
                </font>
             </Label>
             <Button layoutY="211.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#caseDetailsButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Case Details" />
-            <Button layoutY="253.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#assignNewOperationButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Budget Allocation" />
+            <Button layoutY="253.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#BudgetAllocationButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Budget Allocation" />
             <Button layoutY="295.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#assignNewOperationButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Assign New Operations" />
             <Button layoutY="337.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#assignLawyerButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Assign Lawyer" />
             <Button layoutY="379.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#availableLawyerButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Available Lawyers" />
@@ -70,7 +70,7 @@
                   <Image url="@../../../image/images/icons8_Sign_Out_32px.png" />
                </image>
             </ImageView>
-            <Button layoutX="1.0" layoutY="168.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#caseDetailsButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Command OAdministrator" />
+            <Button layoutX="1.0" layoutY="168.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#CommandOAdministratorButtonOnClick" prefHeight="42.0" prefWidth="261.0" stylesheets="@style.css" text="Command OAdministrator" />
             <ImageView fitHeight="23.0" fitWidth="27.0" layoutX="14.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../image/images/project-manager_11445634.png" />
